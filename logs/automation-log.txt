@@ -1,0 +1,90 @@
+2025-05-23 01:32:56 INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 01:32:56 INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 01:32:56 INFO  PropertiesReader:26 - Returning edge for browser property
+2025-05-23 01:32:56 INFO  DriverFactory:48 - Opening Edge Browser
+2025-05-23 01:33:07 INFO  DriverFactory:51 - Opened Edge Browser successfully
+2025-05-23 01:33:07 INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 01:33:07 INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 01:33:07 INFO  PropertiesReader:26 - Returning https://www.demoblaze.com/ for url property
+2025-05-23 01:33:07 INFO  DriverFactory:73 - Quitting driver
+2025-05-23 01:33:10 INFO  DriverFactory:76 - Driver closed successfully
+2025-05-23 01:36:36 INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 01:36:36 INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 01:36:36 INFO  PropertiesReader:26 - Returning edge for browser property
+2025-05-23 01:36:36 INFO  DriverFactory:48 - Opening Edge Browser
+2025-05-23 01:36:44 INFO  DriverFactory:51 - Opened Edge Browser successfully
+2025-05-23 01:36:44 INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 01:36:44 INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 01:36:44 INFO  PropertiesReader:26 - Returning https://www.demoblaze.com/ for url property
+2025-05-23 01:37:31 INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 01:37:31 INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 01:37:31 INFO  PropertiesReader:26 - Returning edge for browser property
+2025-05-23 01:37:31 INFO  DriverFactory:48 - Opening Edge Browser
+2025-05-23 01:37:39 INFO  DriverFactory:51 - Opened Edge Browser successfully
+2025-05-23 01:37:46 INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 01:37:46 INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 01:37:46 INFO  PropertiesReader:26 - Returning https://www.demoblaze.com/ for url property
+2025-05-23 01:46:11 INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 01:46:12 INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 01:46:12 INFO  PropertiesReader:26 - Returning edge for browser property
+2025-05-23 01:46:12 INFO  DriverFactory:48 - Opening Edge Browser
+2025-05-23 01:46:38 INFO  DriverFactory:51 - Opened Edge Browser successfully
+2025-05-23 01:46:51 INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 01:46:51 INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 01:46:51 INFO  PropertiesReader:26 - Returning https://www.demoblaze.com/ for url property
+2025-05-23 01:46:51 INFO  SeleniumExecutor:71 - Opening url - https://www.demoblaze.com/ 
+2025-05-23 01:46:52 INFO  SeleniumExecutor:73 - Opening url - https://www.demoblaze.com/  is successful
+2025-05-23 02:10:36 INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 02:10:36 INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 02:10:36 INFO  PropertiesReader:26 - Returning edge for browser property
+2025-05-23 02:10:36 INFO  DriverFactory:48 - Opening Edge Browser
+2025-05-23 02:10:44 INFO  DriverFactory:51 - Opened Edge Browser successfully
+2025-05-23 02:10:44 INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 02:10:44 INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 02:10:44 INFO  PropertiesReader:26 - Returning https://www.saucedemo.com/ for url property
+2025-05-23 02:10:44 INFO  SeleniumExecutor:71 - Opening url - https://www.saucedemo.com/ 
+2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Opening url - https://www.saucedemo.com/  is successful
+2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> xpath: //div[@class='login_logo']] to be visible 
+2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> xpath: //div[@class='login_logo']] to be visible  is successful
+2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Entering standard_user in UserName field 
+2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> id: user-name] to be visible 
+2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> id: user-name] to be visible  is successful
+2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Entering standard_user in UserName field  is successful
+2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Entering secret_sauce in Password field 
+2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> id: password] to be visible 
+2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> id: password] to be visible  is successful
+2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Entering secret_sauce in Password field  is successful
+2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Clicking element - Login Button 
+2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> id: login-button] to be visible 
+2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> id: login-button] to be visible  is successful
+2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Clicking element - Login Button  is successful
+2025-05-23 02:21:27 INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 02:21:27 INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 02:21:27 INFO  PropertiesReader:26 - Returning edge for browser property
+2025-05-23 02:21:27 INFO  DriverFactory:48 - Opening Edge Browser
+2025-05-23 02:21:34 INFO  DriverFactory:51 - Opened Edge Browser successfully
+2025-05-23 02:21:34 INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 02:21:34 INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 02:21:34 INFO  PropertiesReader:26 - Returning https://www.saucedemo.com/ for url property
+2025-05-23 02:21:34 INFO  SeleniumExecutor:71 - Opening url - https://www.saucedemo.com/ 
+2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Opening url - https://www.saucedemo.com/  is successful
+2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> xpath: //div[@class='login_logo']] to be visible 
+2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> xpath: //div[@class='login_logo']] to be visible  is successful
+2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Entering locked_out_user in UserName field 
+2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> id: user-name] to be visible 
+2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> id: user-name] to be visible  is successful
+2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Entering locked_out_user in UserName field  is successful
+2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Entering secret_sauce in Password field 
+2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> id: password] to be visible 
+2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> id: password] to be visible  is successful
+2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Entering secret_sauce in Password field  is successful
+2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Clicking element - Login Button 
+2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> id: login-button] to be visible 
+2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> id: login-button] to be visible  is successful
+2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Clicking element - Login Button  is successful
+2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> xpath: //h3[@data-test='error']] to be visible 
+2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> xpath: //h3[@data-test='error']] to be visible  is successful
+2025-05-23 02:21:35 INFO  SeleniumExecutor:118 - Getting text from - Login error 
+2025-05-23 02:21:35 INFO  SeleniumExecutor:123 - Getting text from - Login error  returned Epic sadface: Sorry, this user has been locked out. successfully
+2025-05-23 02:21:35 INFO  AssertionUtils:15 - 🔎 Verifying: Verify invalid login
+2025-05-23 02:21:35 INFO  AssertionUtils:18 - Assertion passed: Verify invalid login | Expected: Epic sadface: Sorry, this user has been locked out. | Actual: Epic sadface: Sorry, this user has been locked out.
