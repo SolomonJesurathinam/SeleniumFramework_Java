@@ -1,90 +1,268 @@
-2025-05-23 01:32:56 INFO  PropertiesReader:17 - Loading Properties File
-2025-05-23 01:32:56 INFO  PropertiesReader:19 - Loaded Properties File successfully
-2025-05-23 01:32:56 INFO  PropertiesReader:26 - Returning edge for browser property
-2025-05-23 01:32:56 INFO  DriverFactory:48 - Opening Edge Browser
-2025-05-23 01:33:07 INFO  DriverFactory:51 - Opened Edge Browser successfully
-2025-05-23 01:33:07 INFO  PropertiesReader:17 - Loading Properties File
-2025-05-23 01:33:07 INFO  PropertiesReader:19 - Loaded Properties File successfully
-2025-05-23 01:33:07 INFO  PropertiesReader:26 - Returning https://www.demoblaze.com/ for url property
-2025-05-23 01:33:07 INFO  DriverFactory:73 - Quitting driver
-2025-05-23 01:33:10 INFO  DriverFactory:76 - Driver closed successfully
-2025-05-23 01:36:36 INFO  PropertiesReader:17 - Loading Properties File
-2025-05-23 01:36:36 INFO  PropertiesReader:19 - Loaded Properties File successfully
-2025-05-23 01:36:36 INFO  PropertiesReader:26 - Returning edge for browser property
-2025-05-23 01:36:36 INFO  DriverFactory:48 - Opening Edge Browser
-2025-05-23 01:36:44 INFO  DriverFactory:51 - Opened Edge Browser successfully
-2025-05-23 01:36:44 INFO  PropertiesReader:17 - Loading Properties File
-2025-05-23 01:36:44 INFO  PropertiesReader:19 - Loaded Properties File successfully
-2025-05-23 01:36:44 INFO  PropertiesReader:26 - Returning https://www.demoblaze.com/ for url property
-2025-05-23 01:37:31 INFO  PropertiesReader:17 - Loading Properties File
-2025-05-23 01:37:31 INFO  PropertiesReader:19 - Loaded Properties File successfully
-2025-05-23 01:37:31 INFO  PropertiesReader:26 - Returning edge for browser property
-2025-05-23 01:37:31 INFO  DriverFactory:48 - Opening Edge Browser
-2025-05-23 01:37:39 INFO  DriverFactory:51 - Opened Edge Browser successfully
-2025-05-23 01:37:46 INFO  PropertiesReader:17 - Loading Properties File
-2025-05-23 01:37:46 INFO  PropertiesReader:19 - Loaded Properties File successfully
-2025-05-23 01:37:46 INFO  PropertiesReader:26 - Returning https://www.demoblaze.com/ for url property
-2025-05-23 01:46:11 INFO  PropertiesReader:17 - Loading Properties File
-2025-05-23 01:46:12 INFO  PropertiesReader:19 - Loaded Properties File successfully
-2025-05-23 01:46:12 INFO  PropertiesReader:26 - Returning edge for browser property
-2025-05-23 01:46:12 INFO  DriverFactory:48 - Opening Edge Browser
-2025-05-23 01:46:38 INFO  DriverFactory:51 - Opened Edge Browser successfully
-2025-05-23 01:46:51 INFO  PropertiesReader:17 - Loading Properties File
-2025-05-23 01:46:51 INFO  PropertiesReader:19 - Loaded Properties File successfully
-2025-05-23 01:46:51 INFO  PropertiesReader:26 - Returning https://www.demoblaze.com/ for url property
-2025-05-23 01:46:51 INFO  SeleniumExecutor:71 - Opening url - https://www.demoblaze.com/ 
-2025-05-23 01:46:52 INFO  SeleniumExecutor:73 - Opening url - https://www.demoblaze.com/  is successful
-2025-05-23 02:10:36 INFO  PropertiesReader:17 - Loading Properties File
-2025-05-23 02:10:36 INFO  PropertiesReader:19 - Loaded Properties File successfully
-2025-05-23 02:10:36 INFO  PropertiesReader:26 - Returning edge for browser property
-2025-05-23 02:10:36 INFO  DriverFactory:48 - Opening Edge Browser
-2025-05-23 02:10:44 INFO  DriverFactory:51 - Opened Edge Browser successfully
-2025-05-23 02:10:44 INFO  PropertiesReader:17 - Loading Properties File
-2025-05-23 02:10:44 INFO  PropertiesReader:19 - Loaded Properties File successfully
-2025-05-23 02:10:44 INFO  PropertiesReader:26 - Returning https://www.saucedemo.com/ for url property
-2025-05-23 02:10:44 INFO  SeleniumExecutor:71 - Opening url - https://www.saucedemo.com/ 
-2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Opening url - https://www.saucedemo.com/  is successful
-2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> xpath: //div[@class='login_logo']] to be visible 
-2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> xpath: //div[@class='login_logo']] to be visible  is successful
-2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Entering standard_user in UserName field 
-2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> id: user-name] to be visible 
-2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> id: user-name] to be visible  is successful
-2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Entering standard_user in UserName field  is successful
-2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Entering secret_sauce in Password field 
-2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> id: password] to be visible 
-2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> id: password] to be visible  is successful
-2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Entering secret_sauce in Password field  is successful
-2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Clicking element - Login Button 
-2025-05-23 02:10:45 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> id: login-button] to be visible 
-2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (88c8a22fea9c3429c32bdc5b542d61c4)] -> id: login-button] to be visible  is successful
-2025-05-23 02:10:45 INFO  SeleniumExecutor:73 - Clicking element - Login Button  is successful
-2025-05-23 02:21:27 INFO  PropertiesReader:17 - Loading Properties File
-2025-05-23 02:21:27 INFO  PropertiesReader:19 - Loaded Properties File successfully
-2025-05-23 02:21:27 INFO  PropertiesReader:26 - Returning edge for browser property
-2025-05-23 02:21:27 INFO  DriverFactory:48 - Opening Edge Browser
-2025-05-23 02:21:34 INFO  DriverFactory:51 - Opened Edge Browser successfully
-2025-05-23 02:21:34 INFO  PropertiesReader:17 - Loading Properties File
-2025-05-23 02:21:34 INFO  PropertiesReader:19 - Loaded Properties File successfully
-2025-05-23 02:21:34 INFO  PropertiesReader:26 - Returning https://www.saucedemo.com/ for url property
-2025-05-23 02:21:34 INFO  SeleniumExecutor:71 - Opening url - https://www.saucedemo.com/ 
-2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Opening url - https://www.saucedemo.com/  is successful
-2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> xpath: //div[@class='login_logo']] to be visible 
-2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> xpath: //div[@class='login_logo']] to be visible  is successful
-2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Entering locked_out_user in UserName field 
-2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> id: user-name] to be visible 
-2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> id: user-name] to be visible  is successful
-2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Entering locked_out_user in UserName field  is successful
-2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Entering secret_sauce in Password field 
-2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> id: password] to be visible 
-2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> id: password] to be visible  is successful
-2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Entering secret_sauce in Password field  is successful
-2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Clicking element - Login Button 
-2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> id: login-button] to be visible 
-2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> id: login-button] to be visible  is successful
-2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Clicking element - Login Button  is successful
-2025-05-23 02:21:35 INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> xpath: //h3[@data-test='error']] to be visible 
-2025-05-23 02:21:35 INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (5760d2c876e294248fbde5ee12cb996c)] -> xpath: //h3[@data-test='error']] to be visible  is successful
-2025-05-23 02:21:35 INFO  SeleniumExecutor:118 - Getting text from - Login error 
-2025-05-23 02:21:35 INFO  SeleniumExecutor:123 - Getting text from - Login error  returned Epic sadface: Sorry, this user has been locked out. successfully
-2025-05-23 02:21:35 INFO  AssertionUtils:15 - 🔎 Verifying: Verify invalid login
-2025-05-23 02:21:35 INFO  AssertionUtils:18 - Assertion passed: Verify invalid login | Expected: Epic sadface: Sorry, this user has been locked out. | Actual: Epic sadface: Sorry, this user has been locked out.
+2025-05-23 19:15:17 [TestNG-test-Release 1-2] [] INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 19:15:17 [TestNG-test-Release 1-1] [] INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 19:15:17 [TestNG-test-Release 1-1] [] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 19:15:17 [TestNG-test-Release 1-2] [] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 19:15:17 [TestNG-test-Release 1-2] [] INFO  PropertiesReader:26 - Returning edge for browser property
+2025-05-23 19:15:17 [TestNG-test-Release 1-1] [] INFO  PropertiesReader:26 - Returning edge for browser property
+2025-05-23 19:15:17 [TestNG-test-Release 1-2] [] INFO  DriverFactory:48 - Opening Edge Browser
+2025-05-23 19:15:17 [TestNG-test-Release 1-1] [] INFO  DriverFactory:48 - Opening Edge Browser
+2025-05-23 19:15:27 [TestNG-test-Release 1-2] [] INFO  DriverFactory:51 - Opened Edge Browser successfully
+2025-05-23 19:15:27 [TestNG-test-Release 1-1] [] INFO  DriverFactory:51 - Opened Edge Browser successfully
+2025-05-23 19:15:27 [TestNG-test-Release 1-1] [] INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 19:15:27 [TestNG-test-Release 1-1] [] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 19:15:27 [TestNG-test-Release 1-1] [] INFO  PropertiesReader:26 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-23 19:15:27 [TestNG-test-Release 1-1] [] INFO  SeleniumExecutor:71 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-23 19:15:27 [TestNG-test-Release 1-2] [] INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 19:15:27 [TestNG-test-Release 1-2] [] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 19:15:27 [TestNG-test-Release 1-2] [] INFO  PropertiesReader:26 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-23 19:15:27 [TestNG-test-Release 1-2] [] INFO  SeleniumExecutor:71 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-23 19:15:28 [TestNG-test-Release 1-2] [] INFO  SeleniumExecutor:73 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-23 19:15:30 [TestNG-test-Release 1-1] [] INFO  SeleniumExecutor:73 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-23 19:15:30 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:71 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:73 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:71 - Entering test in UserName field 
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (1d257a0a29d810a22adf1afead95b830)] -> name: username] to be visible 
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (1d257a0a29d810a22adf1afead95b830)] -> name: username] to be visible  is successful
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:73 - Entering test in UserName field  is successful
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:71 - Entering test in Password field 
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (1d257a0a29d810a22adf1afead95b830)] -> name: password] to be visible 
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (1d257a0a29d810a22adf1afead95b830)] -> name: password] to be visible  is successful
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:73 - Entering test in Password field  is successful
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:71 - Clicking element - Login Button 
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (1d257a0a29d810a22adf1afead95b830)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (1d257a0a29d810a22adf1afead95b830)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-23 19:15:32 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:73 - Clicking element - Login Button  is successful
+2025-05-23 19:15:33 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:71 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-23 19:15:34 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:73 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-23 19:15:34 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:118 - Getting text from - Login error 
+2025-05-23 19:15:34 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (1d257a0a29d810a22adf1afead95b830)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-23 19:15:34 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (1d257a0a29d810a22adf1afead95b830)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-23 19:15:34 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:123 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-23 19:15:34 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  AssertionUtils:15 - Verifying: Verify invalid login
+2025-05-23 19:15:34 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  AssertionUtils:18 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-23 19:15:34 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 19:15:34 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 19:15:34 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  PropertiesReader:26 - Returning edge for browser property
+2025-05-23 19:15:34 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  DriverFactory:48 - Opening Edge Browser
+2025-05-23 19:15:35 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-23 19:15:37 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-23 19:15:37 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Entering Admin in UserName field 
+2025-05-23 19:15:37 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> name: username] to be visible 
+2025-05-23 19:15:37 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> name: username] to be visible  is successful
+2025-05-23 19:15:37 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Entering Admin in UserName field  is successful
+2025-05-23 19:15:37 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Entering admin123 in Password field 
+2025-05-23 19:15:37 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> name: password] to be visible 
+2025-05-23 19:15:38 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> name: password] to be visible  is successful
+2025-05-23 19:15:38 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Entering admin123 in Password field  is successful
+2025-05-23 19:15:38 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Clicking element - Login Button 
+2025-05-23 19:15:38 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-23 19:15:38 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-23 19:15:38 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Clicking element - Login Button  is successful
+2025-05-23 19:15:40 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //h6[text()='Dashboard']' to be visible 
+2025-05-23 19:15:40 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //h6[text()='Dashboard']' to be visible  is successful
+2025-05-23 19:15:40 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Clicking element - Admin Link 
+2025-05-23 19:15:40 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //span[text()='Admin']/..] to be visible 
+2025-05-23 19:15:41 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //span[text()='Admin']/..] to be visible  is successful
+2025-05-23 19:15:42 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Clicking element - Admin Link  is successful
+2025-05-23 19:15:42 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='oxd-topbar-header-breadcrumb']' to be visible 
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //span[@class='oxd-topbar-header-breadcrumb']' to be visible  is successful
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Selecting Admin from dynamic dropdown User Role 
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //label[text()='User Role']/../../div[2]] to be visible 
+2025-05-23 19:15:43 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  DriverFactory:51 - Opened Edge Browser successfully
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //label[text()='User Role']/../../div[2]] to be visible  is successful
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Clicking element - User Role 
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //label[text()='User Role']/../../div[2]] to be visible 
+2025-05-23 19:15:43 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  PropertiesReader:17 - Loading Properties File
+2025-05-23 19:15:43 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-23 19:15:43 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  PropertiesReader:26 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-23 19:15:43 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:71 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //label[text()='User Role']/../../div[2]] to be visible  is successful
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Clicking element - User Role  is successful
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //div[@role='listbox']] to be visible 
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //div[@role='listbox']] to be visible  is successful
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:118 - Getting text from - User Role 
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //div[@class='oxd-select-option']] to be visible 
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //div[@class='oxd-select-option']] to be visible  is successful
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:123 - Getting text from - User Role  returned -- Select -- successfully
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:118 - Getting text from - User Role 
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //div[@class='oxd-select-option']] to be visible 
+2025-05-23 19:15:43 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //div[@class='oxd-select-option']] to be visible  is successful
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:123 - Getting text from - User Role  returned Admin successfully
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Clicking element - Admin 
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //div[@class='oxd-select-option']] to be visible 
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //div[@class='oxd-select-option']] to be visible  is successful
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Clicking element - Admin  is successful
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Selecting Admin from dynamic dropdown User Role  is successful
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Clicking element - Search 
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Clicking element - Search  is successful
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //div[@class='oxd-loading-spinner']] to be visible 
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //div[@class='oxd-loading-spinner']] to be visible  is successful
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //div[@class='oxd-loading-spinner']] to be invisible 
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: //div[@class='oxd-loading-spinner']] to be invisible  is successful
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:118 - Getting text from - Message Records 
+2025-05-23 19:15:44 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: (//span[@class='oxd-text oxd-text--span'])[1]] to be visible 
+2025-05-23 19:15:45 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (416ff6031b1f824407514b5b2074f86b)] -> xpath: (//span[@class='oxd-text oxd-text--span'])[1]] to be visible  is successful
+2025-05-23 19:15:45 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  SeleniumExecutor:123 - Getting text from - Message Records  returned (16) Records Found successfully
+2025-05-23 19:15:45 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] INFO  AssertionUtils:15 - Verifying: Records Count
+2025-05-23 19:15:45 [TestNG-test-Release 1-2] [testCases.TestExample.verify_admin_case] ERROR AssertionUtils:20 - Assertion failed: Records Count | Expected: (15) Records Found | Actual: (16) Records Found
+2025-05-23 19:15:46 [TestNG-test-Release 1-1] [testCases.TestExample.invalidTest] INFO  SeleniumExecutor:73 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-23 19:15:46 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-23 19:15:47 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-23 19:15:47 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Entering Admin in UserName field 
+2025-05-23 19:15:47 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> name: username] to be visible 
+2025-05-23 19:15:47 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> name: username] to be visible  is successful
+2025-05-23 19:15:47 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Entering Admin in UserName field  is successful
+2025-05-23 19:15:47 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Entering admin123 in Password field 
+2025-05-23 19:15:47 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> name: password] to be visible 
+2025-05-23 19:15:47 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> name: password] to be visible  is successful
+2025-05-23 19:15:48 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Entering admin123 in Password field  is successful
+2025-05-23 19:15:48 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - Login Button 
+2025-05-23 19:15:48 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-23 19:15:48 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-23 19:15:49 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - Login Button  is successful
+2025-05-23 19:15:49 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //h6[text()='Dashboard']' to be visible 
+2025-05-23 19:15:49 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //h6[text()='Dashboard']' to be visible  is successful
+2025-05-23 19:15:49 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - Directory Link 
+2025-05-23 19:15:49 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //span[text()='Directory']/..] to be visible 
+2025-05-23 19:15:49 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //span[text()='Directory']/..] to be visible  is successful
+2025-05-23 19:15:50 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - Directory Link  is successful
+2025-05-23 19:15:50 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //h6[text()='Directory']' to be visible 
+2025-05-23 19:15:51 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //h6[text()='Directory']' to be visible  is successful
+2025-05-23 19:15:51 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Select Admin Admin123 from dynamic dropdown Select Employee 
+2025-05-23 19:15:51 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //input[@placeholder='Type for hints...']] to be visible 
+2025-05-23 19:15:51 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //input[@placeholder='Type for hints...']] to be visible  is successful
+2025-05-23 19:15:51 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Entering Admin in Select Employee 
+2025-05-23 19:15:51 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //input[@placeholder='Type for hints...']] to be visible 
+2025-05-23 19:15:51 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //input[@placeholder='Type for hints...']] to be visible  is successful
+2025-05-23 19:15:52 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Entering Admin in Select Employee  is successful
+2025-05-23 19:15:52 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-autocomplete-option']] to be visible 
+2025-05-23 19:15:52 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-autocomplete-option']] to be visible  is successful
+2025-05-23 19:15:52 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:166 - Waiting for condition: Waiting for text doesn't contains Searching...
+2025-05-23 19:15:53 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:184 - ✅ Condition met: Waiting for text doesn't contains Searching...
+2025-05-23 19:15:53 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:118 - Getting text from - Select Employee 
+2025-05-23 19:15:53 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-autocomplete-option']] to be visible 
+2025-05-23 19:15:53 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-autocomplete-option']] to be visible  is successful
+2025-05-23 19:15:53 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:123 - Getting text from - Select Employee  returned Admin Admin123 successfully
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Select Admin Admin123 from dynamic dropdown Select Employee  is successful
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - Search 
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - Search  is successful
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be visible 
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be visible  is successful
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be invisible 
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be invisible  is successful
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:118 - Getting text from - Message Records 
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //span[@class='oxd-text oxd-text--span']] to be visible 
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //span[@class='oxd-text oxd-text--span']] to be visible  is successful
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:123 - Getting text from - Message Records  returned (1) Record Found successfully
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  AssertionUtils:15 - Verifying: Records Count
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  AssertionUtils:18 - Assertion passed: Records Count | Expected: (1) Record Found | Actual: (1) Record Found
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - Reset 
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //button[@type='reset']] to be visible 
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //button[@type='reset']] to be visible  is successful
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - Reset  is successful
+2025-05-23 19:15:54 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be visible 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be visible  is successful
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be invisible 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be invisible  is successful
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Selecting Account Assistant from dynamic dropdown Job Title 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //label[text()='Job Title']/../../div[2]/div/div] to be visible 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //label[text()='Job Title']/../../div[2]/div/div] to be visible  is successful
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - Job Title 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //label[text()='Job Title']/../../div[2]/div/div] to be visible 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //label[text()='Job Title']/../../div[2]/div/div] to be visible  is successful
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - Job Title  is successful
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@role='listbox']] to be visible 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@role='listbox']] to be visible  is successful
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:118 - Getting text from - Job Title 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible  is successful
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:123 - Getting text from - Job Title  returned -- Select -- successfully
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:118 - Getting text from - Job Title 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible  is successful
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:123 - Getting text from - Job Title  returned Account Assistant successfully
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - Account Assistant 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible  is successful
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - Account Assistant  is successful
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Selecting Account Assistant from dynamic dropdown Job Title  is successful
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - Search 
+2025-05-23 19:15:55 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - Search  is successful
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='oxd-toaster_1']//p[2]' to be visible 
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@id='oxd-toaster_1']//p[2]' to be visible  is successful
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:118 - Getting text from - No Records popup 
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@id='oxd-toaster_1']//p[2]] to be visible 
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@id='oxd-toaster_1']//p[2]] to be visible  is successful
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:123 - Getting text from - No Records popup  returned No Records Found successfully
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  AssertionUtils:15 - Verifying: No Records comparing
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  AssertionUtils:18 - Assertion passed: No Records comparing | Expected: No Records Found | Actual: No Records Found
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - Reset 
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //button[@type='reset']] to be visible 
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //button[@type='reset']] to be visible  is successful
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - Reset  is successful
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be visible 
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be visible  is successful
+2025-05-23 19:15:56 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be invisible 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be invisible  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Selecting Texas R&D from dynamic dropdown Location 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //label[text()='Location']/../../div[2]/div/div] to be visible 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //label[text()='Location']/../../div[2]/div/div] to be visible  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - Location 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //label[text()='Location']/../../div[2]/div/div] to be visible 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //label[text()='Location']/../../div[2]/div/div] to be visible  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - Location  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@role='listbox']] to be visible 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@role='listbox']] to be visible  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:118 - Getting text from - Location 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:123 - Getting text from - Location  returned -- Select -- successfully
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:118 - Getting text from - Location 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:123 - Getting text from - Location  returned Canadian Regional HQ successfully
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:118 - Getting text from - Location 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:123 - Getting text from - Location  returned HQ - CA, USA successfully
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:118 - Getting text from - Location 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:123 - Getting text from - Location  returned New York Sales Office successfully
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:118 - Getting text from - Location 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:123 - Getting text from - Location  returned Texas R&D successfully
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - Texas R&D 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-select-option']] to be visible  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - Texas R&D  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Selecting Texas R&D from dynamic dropdown Location  is successful
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - Search 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-23 19:15:57 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - Search  is successful
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be visible 
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be visible  is successful
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be invisible 
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //div[@class='oxd-loading-spinner']] to be invisible  is successful
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:118 - Getting text from - Message Records 
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //span[@class='oxd-text oxd-text--span']] to be visible 
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //span[@class='oxd-text oxd-text--span']] to be visible  is successful
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:123 - Getting text from - Message Records  returned (4) Records Found successfully
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  AssertionUtils:15 - Verifying: Records Count
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  AssertionUtils:18 - Assertion passed: Records Count | Expected: (4) Records Found | Actual: (4) Records Found
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - User Profile 
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //span[@class='oxd-userdropdown-tab']] to be visible 
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //span[@class='oxd-userdropdown-tab']] to be visible  is successful
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - User Profile  is successful
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Clicking element - Logout 
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:71 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //a[text()='Logout']] to be visible 
+2025-05-23 19:15:58 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Wait for [[EdgeDriver: MicrosoftEdge on windows (d6b6b216ab0cf7c1a35a958b57c71d38)] -> xpath: //a[text()='Logout']] to be visible  is successful
+2025-05-23 19:15:59 [TestNG-test-Release 1-1] [testCases.TestExample.verify_directory_case] INFO  SeleniumExecutor:73 - Clicking element - Logout  is successful

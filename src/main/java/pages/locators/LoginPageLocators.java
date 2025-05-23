@@ -5,18 +5,18 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPageLocators {
 
-    @FindBy(xpath = "//div[@class='login_logo']")
+    @FindBy(xpath = "//img[@alt='company-branding']")
     public WebElement pageLoad;
 
-    @FindBy(id = "user-name")
+    @FindBy(name = "username")
     public WebElement txt_userName;
 
-    @FindBy(id = "password")
+    @FindBy(name = "password")
     public WebElement txt_password;
 
-    @FindBy(id = "login-button")
+    @FindBy(xpath = "//button[@type='submit']")
     public WebElement btn_login;
 
-    @FindBy(xpath = "//h3[@data-test='error']")
+    @FindBy(xpath = "//div[@role='alert']//p")
     public WebElement msg_Error;
 }
