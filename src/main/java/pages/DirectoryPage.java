@@ -11,7 +11,7 @@ public class DirectoryPage extends BasePage{
     DirectoryPageLocators dpLocators;
 
     public DirectoryPage(){
-        reusableMethods = new ReusableMethods();
+        reusableMethods = new ReusableMethods(this);
         dpLocators = new DirectoryPageLocators();
         PageFactory.initElements(driver, dpLocators);
     }

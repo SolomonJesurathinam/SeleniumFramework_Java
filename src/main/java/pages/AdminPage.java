@@ -11,7 +11,7 @@ public class AdminPage extends BasePage{
     AdminPageLocators adPLocators;
 
     public AdminPage(){
-        reusableMethods = new ReusableMethods();
+        reusableMethods = new ReusableMethods(this);
         adPLocators = new AdminPageLocators();
         PageFactory.initElements(driver,adPLocators);
     }

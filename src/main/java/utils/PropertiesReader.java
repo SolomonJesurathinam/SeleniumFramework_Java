@@ -1,14 +1,13 @@
 package utils;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
 public class PropertiesReader {
 
-    private final Logger logger = LogManager.getLogger(PropertiesReader.class);
+//    private final Logger logger = LogManager.getLogger(PropertiesReader.class);
+    private final LoggerWrapper logger = new LoggerWrapper(PropertiesReader.class);
 
     public String getProperty(String getProp){
         Properties properties = new Properties();
@@ -19,11 +18,11 @@ public class PropertiesReader {
             logger.info("Loaded Properties File successfully");
         } catch (IOException e) {
             String errorMsg = "Property File is not available in the "+propPath+" location";
-            logger.error("Error Loading Properties File {}", errorMsg);
+            logger.error(String.format("Error Loading Properties File %s", errorMsg));
             throw new RuntimeException(errorMsg);
         }
         String value = properties.getProperty(getProp);
-        logger.info("Returning {} for {} property", value, getProp);
+        logger.info(String.format("Returning %s for %s property", value, getProp));
         return value;
     }
 }

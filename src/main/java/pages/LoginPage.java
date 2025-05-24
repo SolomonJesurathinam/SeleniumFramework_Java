@@ -11,7 +11,7 @@ public class LoginPage extends BasePage {
     LoginPageLocators lpLoators;
 
     public LoginPage() {
-        reusableMethods = new ReusableMethods();
+        reusableMethods = new ReusableMethods(this);
         lpLoators = new LoginPageLocators();
         PageFactory.initElements(driver, lpLoators);
     }

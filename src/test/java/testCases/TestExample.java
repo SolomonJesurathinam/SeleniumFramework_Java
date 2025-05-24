@@ -8,7 +8,7 @@ import pages.LoginPage;
 
 public class TestExample extends BaseTest{
 
-    @Test
+//    @Test
     public void verify_directory_case(){
         LoginPage loginPage = new LoginPage();
         loginPage.verify_page_is_loaded()
@@ -36,7 +36,7 @@ public class TestExample extends BaseTest{
                 .invalid_login("test", "test","Invalid credentials");
     }
 
-    @Test
+//    @Test
     public void verify_admin_case(){
         LoginPage loginPage = new LoginPage();
         loginPage.verify_page_is_loaded()

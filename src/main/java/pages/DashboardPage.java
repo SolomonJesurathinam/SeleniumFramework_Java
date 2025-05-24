@@ -10,7 +10,7 @@ public class DashboardPage extends BasePage{
     DashboardPageLocators dbpLocators;
 
     public DashboardPage(){
-        reusableMethods = new ReusableMethods();
+        reusableMethods = new ReusableMethods(this);
         dbpLocators = new DashboardPageLocators();
         PageFactory.initElements(driver,dbpLocators);
     }

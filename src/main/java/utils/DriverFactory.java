@@ -1,7 +1,5 @@
 package utils;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -13,7 +11,8 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 public class DriverFactory {
 
     static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
-    private static final Logger logger = LogManager.getLogger(DriverFactory.class);
+//    private static final Logger logger = LogManager.getLogger(DriverFactory.class);
+    private static final LoggerWrapper logger = new LoggerWrapper(DriverFactory.class);
 
     public static void setBrowser(String browser){
         if(browser.equalsIgnoreCase("chrome")){
@@ -26,7 +25,7 @@ public class DriverFactory {
         else if(browser.equalsIgnoreCase("firefox")){
             setFireFoxDriver();
         }else{
-            logger.warn("Unsupported {} is given",browser);
+            logger.warn(String.format("Unsupported %s is given",browser));
             throw new IllegalArgumentException("Unsupported "+browser+" is given");
         }
         getDriver().manage().window().maximize();
@@ -39,7 +38,7 @@ public class DriverFactory {
             driverThreadLocal.set(new ChromeDriver(options));
             logger.info("Opened Chrome Browser successfully");
         }catch(Exception e){
-            logger.error("Error opening Chrome browser - {}",e.getMessage());
+            logger.error(String.format("Error opening Chrome browser - %s",e.getMessage()));
         }
     }
 
@@ -50,7 +49,7 @@ public class DriverFactory {
             driverThreadLocal.set(new EdgeDriver(options));
             logger.info("Opened Edge Browser successfully");
         }catch(Exception e){
-            logger.error("Error opening Edge browser - {}",e.getMessage());
+            logger.error(String.format("Error opening Edge browser - %s",e.getMessage()));
         }
     }
 
@@ -61,7 +60,7 @@ public class DriverFactory {
             driverThreadLocal.set(new FirefoxDriver(options));
             logger.info("Opened Firefox Browser successfully");
         }catch(Exception e){
-            logger.error("Error opening Firefox browser - {}",e.getMessage());
+            logger.error(String.format("Error opening Firefox browser - %s",e.getMessage()));
         }
     }
 
@@ -75,7 +74,7 @@ public class DriverFactory {
             getDriver().quit();
             logger.info("Driver closed successfully");
         }catch (Exception e){
-            logger.error("Error quitting driver - {}",e.getMessage());
+            logger.error(String.format("Error quitting driver - %s",e.getMessage()));
         }
     }
 }

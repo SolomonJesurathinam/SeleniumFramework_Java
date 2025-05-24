@@ -39,6 +39,14 @@
             <version>2.20.0</version>
         </dependency>
 
+        <!--        Reporting-->
+        <!-- https://mvnrepository.com/artifact/com.aventstack/chaintest-testng -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>chaintest-testng</artifactId>
+            <version>1.0.12</version>
+        </dependency>
+
     </dependencies>
 
 </project>

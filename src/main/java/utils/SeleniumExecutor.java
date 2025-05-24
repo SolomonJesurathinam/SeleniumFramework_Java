@@ -13,7 +13,13 @@ import java.util.function.Supplier;
 
 public class SeleniumExecutor {
 
-    private final Logger logger = LogManager.getLogger(SeleniumExecutor.class);
+//    private final Logger logger;
+    private final LoggerWrapper logger;
+
+    public SeleniumExecutor(Class<?> callerClass) {
+//        this.logger = LogManager.getLogger(callerClass);
+        this.logger = new LoggerWrapper(callerClass);
+    }
 
     /**
      * A functional interface representing an action that can throw an exception.
@@ -70,14 +76,14 @@ public class SeleniumExecutor {
             try {
                 logger.info(description);
                 action.execute();
-                logger.info("{} is successful",description);
+                logger.info(String.format("%s is successful",description));
                 return;
             } catch (Exception e) {
                 attempt++;
-                logger.warn("[ {} ] - Attempt {} : {}",description,attempt,e.getClass().getSimpleName());
+                logger.warn(String.format("[ %s ] - Attempt %s : %s",description,attempt,e.getClass().getSimpleName()));
 
                 if (!canRecoverOrRetry(e)) {
-                    logger.error("Unrecoverable exception. Aborting: {}",description);
+                    logger.error(String.format("Unrecoverable exception. Aborting: %s",description));
                     throw new RuntimeException("Unrecoverable exception: " + description, e);
                 }
 
@@ -85,7 +91,7 @@ public class SeleniumExecutor {
                 attemptRecovery(e, driver, element);
 
                 if (attempt >= maxRetries) {
-                    logger.error("Max retries reached. Failing: {}",description);
+                    logger.error(String.format("Max retries reached. Failing: %s",description));
                     throw new RuntimeException("Max retries reached. Failing: " + description,e);
                 } else {
                     waitBeforeRetry();
@@ -118,24 +124,24 @@ public class SeleniumExecutor {
                 logger.info(description);
                 T result = function.apply();
                 if(result instanceof WebElement){
-                    logger.info("{} executed successfully and returned a WebElement.", description);
+                    logger.info(String.format("%s executed successfully and returned a WebElement.", description));
                 }else{
-                    logger.info("{} returned {} successfully", description, result);
+                    logger.info(String.format("%s returned %s successfully", description, result));
                 }
                 return result;
             } catch (Exception e) {
                 attempt++;
-                logger.warn("[ {} ] - Attempt {} : {}",description,attempt,e.getClass().getSimpleName());
+                logger.warn(String.format("[ %s ] - Attempt %s : %s",description,attempt,e.getClass().getSimpleName()));
 
                 if (!canRecoverOrRetry(e)) {
-                    logger.error("Unrecoverable exception. Aborting: {}",description);
+                    logger.error(String.format("Unrecoverable exception. Aborting: %s",description));
                     throw new RuntimeException("Unrecoverable exception: " + description, e);
                 }
 
                 attemptRecovery(e, driver, element);
 
                 if (attempt >= maxRetries) {
-                    logger.error("Max retries reached. Failing: {}",description);
+                    logger.error(String.format("Max retries reached. Failing: %s",description));
                     throw new RuntimeException("Max retries reached. Failing: " + description,e);
                 } else {
                     waitBeforeRetry();
@@ -163,7 +169,7 @@ public class SeleniumExecutor {
      * - Logs success or timeout and throws if the condition is not met within the specified duration.
      */
     public <T> T waitUntil(Supplier<T> condition, String description, int timeOutinSec, WebDriver driver){
-        logger.info("Waiting for condition: {}", description);
+        logger.info(String.format("Waiting for condition: %s", description));
         try{
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeOutinSec));
             T result = wait.until(new ExpectedCondition<T>() {
@@ -176,15 +182,15 @@ public class SeleniumExecutor {
                         }
                         return value!=null ? value : null;
                     } catch (Exception e){
-                        logger.debug("Ignoring exception during wait: {}", e.getClass().getSimpleName());
+                        logger.debug(String.format("Ignoring exception during wait: %s", e.getClass().getSimpleName()));
                         return null;
                     }
                 }
             });
-            logger.info("✅ Condition met: {}", description);
+            logger.info(String.format("Condition met: %s", description));
             return result;
         } catch (TimeoutException e) {
-            logger.error("Timeout waiting for condition: {}", description);
+            logger.error(String.format("Timeout waiting for condition: %s", description));
             throw new RuntimeException("Timeout waiting for condition: " + description, e);
         }
     }
@@ -217,7 +223,7 @@ public class SeleniumExecutor {
      * - Provides basic fault-tolerance to transient UI issues.
      */
     private void attemptRecovery(Exception e, WebDriver driver, WebElement element) {
-        logger.info("Attempting recovery for exception: {}", e.getClass().getSimpleName());
+        logger.info(String.format("Attempting recovery for exception: %s", e.getClass().getSimpleName()));
         if (e instanceof ElementClickInterceptedException || e instanceof ElementNotInteractableException) {
             try {
                 logger.info("Recovery: Scrolling element into view...");
@@ -233,7 +239,7 @@ public class SeleniumExecutor {
                 logger.warn("Wait recovery failed.");
             }
         } else {
-            logger.info("No recovery logic defined for: {}",e.getClass().getSimpleName());
+            logger.info(String.format("No recovery logic defined for: %s",e.getClass().getSimpleName()));
         }
     }
 
@@ -247,12 +253,12 @@ public class SeleniumExecutor {
      */
     private void waitBeforeRetry() {
         int waitTime = 1000;
-        logger.info("Waiting {}ms before retry...", waitTime);
+        logger.info(String.format("Waiting %sms before retry...", waitTime));
         try {
             Thread.sleep(1000);
         } catch (InterruptedException ig) {
             Thread.currentThread().interrupt();
-            logger.warn("Interrupted during retry wait", ig);
+            logger.warn(String.format("Interrupted during retry wait - %s", ig));
         }
     }
 

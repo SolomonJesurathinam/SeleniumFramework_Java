@@ -13,7 +13,11 @@ import java.util.List;
 
 public class ReusableMethods {
 
-    SeleniumExecutor se = new SeleniumExecutor();
+    SeleniumExecutor se;
+
+    public ReusableMethods(Object callerObject) {
+        se = new SeleniumExecutor(callerObject.getClass());
+    }
 
     public void openURL(String url, WebDriver driver) {
         se.runWithHandling(() -> {
@@ -39,7 +43,7 @@ public class ReusableMethods {
 
     public String getTextOfElement(WebElement element, WebDriver driver, String eleName) {
         return se.runWithReturnHandling(() -> {
-            waitForElementToBeVisible(driver,30,element,eleName);
+            waitForElementToBeVisible(driver, 30, element, eleName);
             return element.getText();
         }, String.format("Getting text from - %s ", eleName), 3, driver, element);
     }
@@ -71,7 +75,7 @@ public class ReusableMethods {
             waitForElementToBeVisible(driver, 30, element, eleName);
             element.clear();
             char[] chars = text.toCharArray();
-            for(char c : chars){
+            for (char c : chars) {
                 element.sendKeys(String.valueOf(c));
                 Thread.sleep(200);
             }
@@ -79,21 +83,21 @@ public class ReusableMethods {
         }, String.format("Entering %s in %s ", text, eleName), 3, driver, element);
     }
 
-    public void dynamicDropdown_text(WebDriver driver, WebElement enterTextEle, String searchText,String selectText, String eleName,
-                                     WebElement dropFirstEle, List<WebElement> dropList){
-        se.runWithHandling(()->{
-            waitForElementToBeVisible(driver,30,enterTextEle, eleName);
+    public void dynamicDropdown_text(WebDriver driver, WebElement enterTextEle, String searchText, String selectText, String eleName,
+                                     WebElement dropFirstEle, List<WebElement> dropList) {
+        se.runWithHandling(() -> {
+            waitForElementToBeVisible(driver, 30, enterTextEle, eleName);
             enterText_slowly(searchText, enterTextEle, driver, eleName);
-            waitForElementToBeVisible(driver, 15,dropFirstEle,"Drop First element");
-            waitUntilTextDoesntContains(dropFirstEle,"Searching...",driver,"Drop First element",15);
-            for(WebElement drop : dropList){
+            waitForElementToBeVisible(driver, 15, dropFirstEle, "Drop First element");
+            waitUntilTextDoesntContains(dropFirstEle, "Searching...", driver, "Drop First element", 15);
+            for (WebElement drop : dropList) {
                 String text = getTextOfElement(drop, driver, eleName);
-                if(text.equals(selectText)){
-                    clickElementJS(drop,driver,text);
+                if (text.equals(selectText)) {
+                    clickElementJS(drop, driver, text);
                     break;
                 }
             }
-        },String.format("Select %s from dynamic dropdown %s ",selectText,eleName),3,driver,enterTextEle);
+        }, String.format("Select %s from dynamic dropdown %s ", selectText, eleName), 3, driver, enterTextEle);
     }
 
 
@@ -111,36 +115,36 @@ public class ReusableMethods {
         }, String.format("Wait for %s to be invisible ", element), 1, driver, element);
     }
 
-    public void dynamicDropdown(WebDriver driver, WebElement clickEle, WebElement dropSectionCheck, String selectText, String eleName, List<WebElement> dropList){
-        se.runWithHandling(()->{
-            waitForElementToBeVisible(driver,30,clickEle, eleName);
+    public void dynamicDropdown(WebDriver driver, WebElement clickEle, WebElement dropSectionCheck, String selectText, String eleName, List<WebElement> dropList) {
+        se.runWithHandling(() -> {
+            waitForElementToBeVisible(driver, 30, clickEle, eleName);
             clickElement(clickEle, driver, eleName);
             waitForElementToBeVisible(driver, 10, dropSectionCheck, "Dropdown list");
-            for(WebElement drop : dropList){
+            for (WebElement drop : dropList) {
                 String text = getTextOfElement(drop, driver, eleName);
-                if(text.equals(selectText)){
-                    clickElement(drop,driver,text);
+                if (text.equals(selectText)) {
+                    clickElement(drop, driver, text);
                     break;
                 }
             }
-        },String.format("Selecting %s from dynamic dropdown %s ",selectText,eleName),3,driver,clickEle);
+        }, String.format("Selecting %s from dynamic dropdown %s ", selectText, eleName), 3, driver, clickEle);
     }
 
-    public void dynamicDropdown_text_actions(WebDriver driver, WebElement enterTextEle, String searchText,String selectText, String eleName,
-                                     WebElement dropFirstEle, List<WebElement> dropList){
-        se.runWithHandling(()->{
-            waitForElementToBeVisible(driver,30,enterTextEle, eleName);
+    public void dynamicDropdown_text_actions(WebDriver driver, WebElement enterTextEle, String searchText, String selectText, String eleName,
+                                             WebElement dropFirstEle, List<WebElement> dropList) {
+        se.runWithHandling(() -> {
+            waitForElementToBeVisible(driver, 30, enterTextEle, eleName);
             enterText_slowly(searchText, enterTextEle, driver, eleName);
-            waitForElementToBeVisible(driver, 15,dropFirstEle,"Drop First element");
-            waitUntilTextDoesntContains(dropFirstEle,"Searching...",driver,"Drop First element",15);
-            for(WebElement drop : dropList){
+            waitForElementToBeVisible(driver, 15, dropFirstEle, "Drop First element");
+            waitUntilTextDoesntContains(dropFirstEle, "Searching...", driver, "Drop First element", 15);
+            for (WebElement drop : dropList) {
                 String text = getTextOfElement(drop, driver, eleName);
-                if(text.equals(selectText)){
+                if (text.equals(selectText)) {
                     Actions actions = new Actions(driver);
                     actions.moveToElement(drop).click().perform();
                     break;
                 }
             }
-        },String.format("Select %s from dynamic dropdown %s ",selectText,eleName),3,driver,enterTextEle);
+        }, String.format("Select %s from dynamic dropdown %s ", selectText, eleName), 3, driver, enterTextEle);
     }
 }

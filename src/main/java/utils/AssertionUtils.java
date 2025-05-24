@@ -6,18 +6,19 @@ import org.testng.Assert;
 
 public class AssertionUtils {
 
-    private static final Logger logger = LogManager.getLogger(AssertionUtils.class);
+    //    private static final Logger logger = LogManager.getLogger(AssertionUtils.class);
+    private static final LoggerWrapper logger = new LoggerWrapper(AssertionUtils.class);
 
     /**
      * Hard assert equality with logging.
      */
     public static <T> void assertEquals(T actual, T expected, String description) {
-        logger.info("Verifying: {}", description);
+        logger.info(String.format("Verifying: %s", description));
         try {
             Assert.assertEquals(actual, expected);
-            logger.info("Assertion passed: {} | Expected: {} | Actual: {}", description, expected, actual);
+            logger.info(String.format("Assertion passed: %s | Expected: %s | Actual: %s", description, expected, actual));
         } catch (AssertionError e) {
-            logger.error("Assertion failed: {} | Expected: {} | Actual: {}", description, expected, actual);
+            logger.error(String.format("Assertion failed: %s | Expected: %s | Actual: %s", description, expected, actual));
             throw e;
         }
     }
@@ -26,12 +27,12 @@ public class AssertionUtils {
      * Hard assert condition is true.
      */
     public static void assertTrue(boolean condition, String description) {
-        logger.info("🔎 Checking condition: {}", description);
+        logger.info(String.format("Checking condition: %s", description));
         try {
             Assert.assertTrue(condition);
-            logger.info("✅ Condition is true: {}", description);
+            logger.info(String.format("Condition is true: %s", description));
         } catch (AssertionError e) {
-            logger.error("❌ Condition failed: {}", description);
+            logger.error(String.format("Condition failed: %s", description));
             throw e;
         }
     }

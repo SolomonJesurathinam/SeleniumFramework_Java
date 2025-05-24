@@ -4,6 +4,7 @@
 <suite name="TestNGSuite" parallel="methods" thread-count="2">
     <listeners>
         <listener class-name="listeners.TestListener"/>
+        <listener class-name="com.aventstack.chaintest.plugins.ChainTestListener"/>
     </listeners>
     <test name="Release 1">
         <classes>
