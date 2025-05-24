@@ -1,10 +1,11 @@
 package pages;
 
+import base.BasePage;
 import org.openqa.selenium.support.PageFactory;
 import pages.locators.DashboardPageLocators;
 import utils.ReusableMethods;
 
-public class DashboardPage extends BasePage{
+public class DashboardPage extends BasePage {
 
     ReusableMethods reusableMethods;
     DashboardPageLocators dbpLocators;

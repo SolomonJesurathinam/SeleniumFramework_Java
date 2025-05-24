@@ -1,11 +1,12 @@
 package pages;
 
+import base.BasePage;
 import org.openqa.selenium.support.PageFactory;
 import pages.locators.DirectoryPageLocators;
 import utils.AssertionUtils;
 import utils.ReusableMethods;
 
-public class DirectoryPage extends BasePage{
+public class DirectoryPage extends BasePage {
 
     ReusableMethods reusableMethods;
     DirectoryPageLocators dpLocators;

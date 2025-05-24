@@ -1,4 +1,6 @@
-package utils;
+package config;
+
+import utils.LoggerWrapper;
 
 import java.io.FileInputStream;
 import java.io.IOException;

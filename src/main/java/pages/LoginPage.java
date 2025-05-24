@@ -1,5 +1,6 @@
 package pages;
 
+import base.BasePage;
 import org.openqa.selenium.support.PageFactory;
 import pages.locators.LoginPageLocators;
 import utils.AssertionUtils;

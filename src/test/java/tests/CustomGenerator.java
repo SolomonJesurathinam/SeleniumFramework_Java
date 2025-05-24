@@ -1,4 +1,4 @@
-package testCases;
+package tests;
 
 import com.aventstack.chaintest.generator.ChainTestSimpleGenerator;
 

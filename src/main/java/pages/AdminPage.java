@@ -1,11 +1,12 @@
 package pages;
 
+import base.BasePage;
 import org.openqa.selenium.support.PageFactory;
 import pages.locators.AdminPageLocators;
 import utils.AssertionUtils;
 import utils.ReusableMethods;
 
-public class AdminPage extends BasePage{
+public class AdminPage extends BasePage {
 
     ReusableMethods reusableMethods;
     AdminPageLocators adPLocators;

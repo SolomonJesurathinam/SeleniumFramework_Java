@@ -1,12 +1,13 @@
-package testCases;
+package tests;
 
+import base.BaseTest;
 import org.testng.annotations.Test;
 import pages.AdminPage;
 import pages.DashboardPage;
 import pages.DirectoryPage;
 import pages.LoginPage;
 
-public class TestExample extends BaseTest{
+public class TestExample extends BaseTest {
 
 //    @Test
     public void verify_directory_case(){
@@ -29,7 +30,7 @@ public class TestExample extends BaseTest{
         dashboardPage.logout();
     }
 
-    @Test
+    @Test()
     public void invalidTest(){
         LoginPage loginPage = new LoginPage();
         loginPage.verify_page_is_loaded()
