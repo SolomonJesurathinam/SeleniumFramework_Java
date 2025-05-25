@@ -120,3 +120,869 @@
 2025-05-25 01:45:18 [TestNG-test-Release 1-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
 2025-05-25 01:45:18 [TestNG-test-Release 1-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
 2025-05-25 01:45:18 [main] [] INFO  BaseTest:16 - ************************ Release 1 Test Ends ************************
+2025-05-25 14:36:51 [TestNG-tests-3] [] INFO  BaseTest:16 - ************************ Firefox Test Starts ************************
+2025-05-25 14:36:51 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ Chrome Test Starts ************************
+2025-05-25 14:36:51 [TestNG-tests-2] [] INFO  BaseTest:16 - ************************ Edge Test Starts ************************
+2025-05-25 14:36:51 [TestNG-tests-3] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:36:51 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:36:51 [TestNG-tests-2] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:36:51 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:36:51 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:36:51 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Returning edge for browser property
+2025-05-25 14:36:51 [TestNG-tests-2] [] INFO  DriverFactory:16 - Opening Edge Browser
+2025-05-25 14:36:51 [TestNG-tests-3] [] INFO  DriverFactory:16 - Opening Firefox Browser
+2025-05-25 14:36:54 [TestNG-tests-2] [] INFO  DriverFactory:16 - Opened Edge Browser successfully
+2025-05-25 14:36:54 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:36:54 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:36:54 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:36:54 [TestNG-tests-2] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:36:55 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opening Chrome Browser
+2025-05-25 14:36:56 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opened Chrome Browser successfully
+2025-05-25 14:36:56 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:36:56 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:36:56 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:36:56 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:36:57 [TestNG-tests-3] [] INFO  DriverFactory:16 - Opened Firefox Browser successfully
+2025-05-25 14:36:57 [TestNG-tests-3] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:36:57 [TestNG-tests-3] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:36:57 [TestNG-tests-3] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:36:57 [TestNG-tests-3] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:36:58 [TestNG-tests-2] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:36:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:36:59 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:36:59 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:36:59 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (0ee44849d875f6396580eda58e131713)] -> name: username] to be visible 
+2025-05-25 14:36:59 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (0ee44849d875f6396580eda58e131713)] -> name: username] to be visible  is successful
+2025-05-25 14:37:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:37:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:37:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (0ee44849d875f6396580eda58e131713)] -> name: password] to be visible 
+2025-05-25 14:37:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (0ee44849d875f6396580eda58e131713)] -> name: password] to be visible  is successful
+2025-05-25 14:37:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:37:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:37:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (0ee44849d875f6396580eda58e131713)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:37:00 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:37:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (0ee44849d875f6396580eda58e131713)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:37:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:37:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:37:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:37:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (ed02530322fb8bca7d162894b39e8a01)] -> name: username] to be visible 
+2025-05-25 14:37:01 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:37:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (ed02530322fb8bca7d162894b39e8a01)] -> name: username] to be visible  is successful
+2025-05-25 14:37:01 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:37:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:37:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:37:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (ed02530322fb8bca7d162894b39e8a01)] -> name: password] to be visible 
+2025-05-25 14:37:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (ed02530322fb8bca7d162894b39e8a01)] -> name: password] to be visible  is successful
+2025-05-25 14:37:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:37:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:37:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (ed02530322fb8bca7d162894b39e8a01)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:37:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (ed02530322fb8bca7d162894b39e8a01)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:37:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (0ee44849d875f6396580eda58e131713)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (0ee44849d875f6396580eda58e131713)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:37:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:37:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:37:03 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:37:03 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:37:03 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (ed02530322fb8bca7d162894b39e8a01)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:37:03 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (ed02530322fb8bca7d162894b39e8a01)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:37:03 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:37:03 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:37:03 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:37:03 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:37:03 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:37:03 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:37:03 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Chrome Test Ends ************************
+2025-05-25 14:37:03 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:37:03 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:37:03 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Edge Test Ends ************************
+2025-05-25 14:37:06 [TestNG-tests-3] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:37:06 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:37:08 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:37:08 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:37:08 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (6464256d-8e94-4c43-992f-55fd04a7e4d4)] -> name: username] to be visible 
+2025-05-25 14:37:08 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (6464256d-8e94-4c43-992f-55fd04a7e4d4)] -> name: username] to be visible  is successful
+2025-05-25 14:37:08 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:37:08 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:37:08 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (6464256d-8e94-4c43-992f-55fd04a7e4d4)] -> name: password] to be visible 
+2025-05-25 14:37:08 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (6464256d-8e94-4c43-992f-55fd04a7e4d4)] -> name: password] to be visible  is successful
+2025-05-25 14:37:08 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:37:08 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:37:08 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (6464256d-8e94-4c43-992f-55fd04a7e4d4)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:37:08 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (6464256d-8e94-4c43-992f-55fd04a7e4d4)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:37:12 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:37:12 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:37:13 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:37:13 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:37:13 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (6464256d-8e94-4c43-992f-55fd04a7e4d4)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:37:13 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (6464256d-8e94-4c43-992f-55fd04a7e4d4)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:37:13 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:37:13 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:37:13 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:37:13 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:37:14 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:37:14 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:37:14 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Firefox Test Ends ************************
+2025-05-25 14:37:52 [TestNG-tests-3] [] INFO  BaseTest:16 - ************************ Firefox Test Starts ************************
+2025-05-25 14:37:52 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ Chrome Test Starts ************************
+2025-05-25 14:37:52 [TestNG-tests-2] [] INFO  BaseTest:16 - ************************ Edge Test Starts ************************
+2025-05-25 14:37:52 [TestNG-tests-2] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:37:52 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:37:52 [TestNG-tests-3] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:37:52 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:37:52 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Returning edge for browser property
+2025-05-25 14:37:52 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:37:52 [TestNG-tests-2] [] INFO  DriverFactory:16 - Opening Edge Browser
+2025-05-25 14:37:52 [TestNG-tests-3] [] INFO  DriverFactory:16 - Opening Firefox Browser
+2025-05-25 14:37:54 [TestNG-tests-2] [] INFO  DriverFactory:16 - Opened Edge Browser successfully
+2025-05-25 14:37:54 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:37:54 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:37:54 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:37:54 [TestNG-tests-2] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:37:54 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opening Chrome Browser
+2025-05-25 14:37:55 [TestNG-tests-2] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:37:55 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opened Chrome Browser successfully
+2025-05-25 14:37:55 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:37:55 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:37:55 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:37:55 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:37:57 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:37:57 [TestNG-tests-3] [] INFO  DriverFactory:16 - Opened Firefox Browser successfully
+2025-05-25 14:37:57 [TestNG-tests-3] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:37:57 [TestNG-tests-3] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:37:57 [TestNG-tests-3] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:37:57 [TestNG-tests-3] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:37:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:37:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:37:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (3004ca053af4e3f532a5f68886e32508)] -> name: username] to be visible 
+2025-05-25 14:37:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (3004ca053af4e3f532a5f68886e32508)] -> name: username] to be visible  is successful
+2025-05-25 14:37:58 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:37:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:37:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:37:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:37:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (3004ca053af4e3f532a5f68886e32508)] -> name: password] to be visible 
+2025-05-25 14:37:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (3004ca053af4e3f532a5f68886e32508)] -> name: password] to be visible  is successful
+2025-05-25 14:37:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:37:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:37:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (3004ca053af4e3f532a5f68886e32508)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:37:58 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (3004ca053af4e3f532a5f68886e32508)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:37:59 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:37:59 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:37:59 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (39570c17b3722c1957ba6b8fcf296400)] -> name: username] to be visible 
+2025-05-25 14:37:59 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (39570c17b3722c1957ba6b8fcf296400)] -> name: username] to be visible  is successful
+2025-05-25 14:37:59 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:37:59 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:37:59 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:37:59 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:37:59 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (39570c17b3722c1957ba6b8fcf296400)] -> name: password] to be visible 
+2025-05-25 14:37:59 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (39570c17b3722c1957ba6b8fcf296400)] -> name: password] to be visible  is successful
+2025-05-25 14:38:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:38:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:38:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (39570c17b3722c1957ba6b8fcf296400)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:38:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (39570c17b3722c1957ba6b8fcf296400)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:38:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (3004ca053af4e3f532a5f68886e32508)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:38:00 [TestNG-tests-3] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:38:00 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (3004ca053af4e3f532a5f68886e32508)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:38:00 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:38:01 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:38:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:38:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:38:02 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Edge Test Ends ************************
+2025-05-25 14:38:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:38:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:38:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (39570c17b3722c1957ba6b8fcf296400)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:38:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (39570c17b3722c1957ba6b8fcf296400)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:38:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:38:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:38:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:38:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:38:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:38:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:38:02 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Chrome Test Ends ************************
+2025-05-25 14:38:04 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:38:04 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:38:04 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b6fc7909-4995-40d1-a571-a9ecfa55efcd)] -> name: username] to be visible 
+2025-05-25 14:38:04 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b6fc7909-4995-40d1-a571-a9ecfa55efcd)] -> name: username] to be visible  is successful
+2025-05-25 14:38:04 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:38:04 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:38:04 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b6fc7909-4995-40d1-a571-a9ecfa55efcd)] -> name: password] to be visible 
+2025-05-25 14:38:04 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b6fc7909-4995-40d1-a571-a9ecfa55efcd)] -> name: password] to be visible  is successful
+2025-05-25 14:38:04 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:38:04 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:38:04 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b6fc7909-4995-40d1-a571-a9ecfa55efcd)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:38:04 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b6fc7909-4995-40d1-a571-a9ecfa55efcd)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:38:05 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:38:05 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:38:06 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:38:06 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:38:06 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b6fc7909-4995-40d1-a571-a9ecfa55efcd)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:38:06 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b6fc7909-4995-40d1-a571-a9ecfa55efcd)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:38:06 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:38:06 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:38:06 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:38:06 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:38:07 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:38:07 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:38:07 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Firefox Test Ends ************************
+2025-05-25 14:38:23 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ Chrome Test Starts ************************
+2025-05-25 14:38:23 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:38:24 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opening Chrome Browser
+2025-05-25 14:38:25 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opened Chrome Browser successfully
+2025-05-25 14:38:25 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:38:25 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:38:25 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:38:25 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:38:34 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:38:34 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b7d0e5a267cfedd052e150cc4feeb110)] -> name: username] to be visible 
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b7d0e5a267cfedd052e150cc4feeb110)] -> name: username] to be visible  is successful
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b7d0e5a267cfedd052e150cc4feeb110)] -> name: password] to be visible 
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b7d0e5a267cfedd052e150cc4feeb110)] -> name: password] to be visible  is successful
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b7d0e5a267cfedd052e150cc4feeb110)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b7d0e5a267cfedd052e150cc4feeb110)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:38:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b7d0e5a267cfedd052e150cc4feeb110)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b7d0e5a267cfedd052e150cc4feeb110)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:38:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Chrome Test Ends ************************
+2025-05-25 14:39:24 [TestNG-tests-2] [] INFO  BaseTest:16 - ************************ Edge Test Starts ************************
+2025-05-25 14:39:24 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ Chrome Test Starts ************************
+2025-05-25 14:39:24 [TestNG-tests-3] [] INFO  BaseTest:16 - ************************ Firefox Test Starts ************************
+2025-05-25 14:39:24 [TestNG-tests-2] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:39:24 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:39:24 [TestNG-tests-3] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:39:24 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:39:24 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:39:24 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Returning edge for browser property
+2025-05-25 14:39:24 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opening Chrome Browser
+2025-05-25 14:39:24 [TestNG-tests-2] [] INFO  DriverFactory:16 - Opening Edge Browser
+2025-05-25 14:39:24 [TestNG-tests-3] [] INFO  DriverFactory:16 - Opening Firefox Browser
+2025-05-25 14:39:25 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opened Chrome Browser successfully
+2025-05-25 14:39:25 [TestNG-tests-2] [] INFO  DriverFactory:16 - Opened Edge Browser successfully
+2025-05-25 14:39:26 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:39:26 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:39:26 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:39:26 [TestNG-tests-2] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:39:26 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:39:26 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:39:26 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:39:26 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:39:26 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:39:28 [TestNG-tests-3] [] INFO  DriverFactory:16 - Opened Firefox Browser successfully
+2025-05-25 14:39:29 [TestNG-tests-3] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:39:29 [TestNG-tests-3] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:39:29 [TestNG-tests-3] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:39:29 [TestNG-tests-3] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:39:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:39:29 [TestNG-tests-2] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:39:29 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:39:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:39:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:39:30 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:39:30 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:39:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (e7a67dc91d7310a5cec95f5c6ebf1d2f)] -> name: username] to be visible 
+2025-05-25 14:39:30 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (b958b12cf7404a6ea56d716d3d93fd65)] -> name: username] to be visible 
+2025-05-25 14:39:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (e7a67dc91d7310a5cec95f5c6ebf1d2f)] -> name: username] to be visible  is successful
+2025-05-25 14:39:30 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (b958b12cf7404a6ea56d716d3d93fd65)] -> name: username] to be visible  is successful
+2025-05-25 14:39:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:39:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:39:30 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:39:30 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:39:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (e7a67dc91d7310a5cec95f5c6ebf1d2f)] -> name: password] to be visible 
+2025-05-25 14:39:30 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (b958b12cf7404a6ea56d716d3d93fd65)] -> name: password] to be visible 
+2025-05-25 14:39:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (e7a67dc91d7310a5cec95f5c6ebf1d2f)] -> name: password] to be visible  is successful
+2025-05-25 14:39:30 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (b958b12cf7404a6ea56d716d3d93fd65)] -> name: password] to be visible  is successful
+2025-05-25 14:39:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:39:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:39:30 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:39:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (e7a67dc91d7310a5cec95f5c6ebf1d2f)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:39:30 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:39:30 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (b958b12cf7404a6ea56d716d3d93fd65)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:39:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (e7a67dc91d7310a5cec95f5c6ebf1d2f)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:39:30 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (b958b12cf7404a6ea56d716d3d93fd65)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:39:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:39:31 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:39:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:39:31 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (e7a67dc91d7310a5cec95f5c6ebf1d2f)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:39:32 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:39:32 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:39:32 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (b958b12cf7404a6ea56d716d3d93fd65)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (e7a67dc91d7310a5cec95f5c6ebf1d2f)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:39:32 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (b958b12cf7404a6ea56d716d3d93fd65)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:39:32 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:39:32 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:39:32 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:39:32 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:39:32 [TestNG-tests-3] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:39:32 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:39:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Chrome Test Ends ************************
+2025-05-25 14:39:33 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:39:33 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:39:33 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Edge Test Ends ************************
+2025-05-25 14:39:35 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:39:35 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:39:35 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (dec9efe8-b5ed-413c-bbb1-87a66fd8ad8a)] -> name: username] to be visible 
+2025-05-25 14:39:35 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (dec9efe8-b5ed-413c-bbb1-87a66fd8ad8a)] -> name: username] to be visible  is successful
+2025-05-25 14:39:35 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:39:35 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:39:35 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (dec9efe8-b5ed-413c-bbb1-87a66fd8ad8a)] -> name: password] to be visible 
+2025-05-25 14:39:35 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (dec9efe8-b5ed-413c-bbb1-87a66fd8ad8a)] -> name: password] to be visible  is successful
+2025-05-25 14:39:35 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:39:35 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:39:35 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (dec9efe8-b5ed-413c-bbb1-87a66fd8ad8a)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:39:35 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (dec9efe8-b5ed-413c-bbb1-87a66fd8ad8a)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:39:40 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:39:40 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (dec9efe8-b5ed-413c-bbb1-87a66fd8ad8a)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:39:40 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (dec9efe8-b5ed-413c-bbb1-87a66fd8ad8a)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:39:40 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:39:40 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (dec9efe8-b5ed-413c-bbb1-87a66fd8ad8a)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:39:40 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (dec9efe8-b5ed-413c-bbb1-87a66fd8ad8a)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:39:40 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:39:40 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:39:40 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:39:40 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:39:41 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:39:41 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:39:41 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Firefox Test Ends ************************
+2025-05-25 14:42:29 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ Chrome Test Starts ************************
+2025-05-25 14:42:29 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:42:29 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opening Chrome Browser
+2025-05-25 14:42:31 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opened Chrome Browser successfully
+2025-05-25 14:42:31 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:42:31 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:42:31 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:42:31 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:42:37 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:42:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:42:39 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:42:39 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:42:39 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (457e9d46a9a0f23558679e9a6748711e)] -> name: username] to be visible 
+2025-05-25 14:42:39 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (457e9d46a9a0f23558679e9a6748711e)] -> name: username] to be visible  is successful
+2025-05-25 14:42:39 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:42:39 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:42:39 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (457e9d46a9a0f23558679e9a6748711e)] -> name: password] to be visible 
+2025-05-25 14:42:39 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (457e9d46a9a0f23558679e9a6748711e)] -> name: password] to be visible  is successful
+2025-05-25 14:42:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:42:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:42:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (457e9d46a9a0f23558679e9a6748711e)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:42:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (457e9d46a9a0f23558679e9a6748711e)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:42:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:42:41 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (457e9d46a9a0f23558679e9a6748711e)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (457e9d46a9a0f23558679e9a6748711e)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:42:42 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Chrome Test Ends ************************
+2025-05-25 14:43:10 [TestNG-tests-3] [] INFO  BaseTest:16 - ************************ Firefox Test Starts ************************
+2025-05-25 14:43:10 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ Chrome Test Starts ************************
+2025-05-25 14:43:10 [TestNG-tests-2] [] INFO  BaseTest:16 - ************************ Edge Test Starts ************************
+2025-05-25 14:43:10 [TestNG-tests-3] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:43:10 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:43:10 [TestNG-tests-2] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:43:10 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:43:10 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:43:10 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Returning edge for browser property
+2025-05-25 14:43:10 [TestNG-tests-2] [] INFO  DriverFactory:16 - Opening Edge Browser
+2025-05-25 14:43:10 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opening Chrome Browser
+2025-05-25 14:43:10 [TestNG-tests-3] [] INFO  DriverFactory:16 - Opening Firefox Browser
+2025-05-25 14:43:12 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opened Chrome Browser successfully
+2025-05-25 14:43:12 [TestNG-tests-2] [] INFO  DriverFactory:16 - Opened Edge Browser successfully
+2025-05-25 14:43:12 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:43:12 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:43:12 [TestNG-tests-2] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:43:12 [TestNG-tests-2] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:43:12 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:43:12 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:43:12 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:43:12 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:43:13 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:43:15 [TestNG-tests-3] [] INFO  DriverFactory:16 - Opened Firefox Browser successfully
+2025-05-25 14:43:15 [TestNG-tests-3] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:43:15 [TestNG-tests-3] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:43:15 [TestNG-tests-3] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:43:15 [TestNG-tests-3] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:43:15 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:43:16 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:43:16 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:43:16 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (947cfd89b2644d03e4897db98353fcb6)] -> name: username] to be visible 
+2025-05-25 14:43:16 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (947cfd89b2644d03e4897db98353fcb6)] -> name: username] to be visible  is successful
+2025-05-25 14:43:17 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:43:17 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:43:17 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (947cfd89b2644d03e4897db98353fcb6)] -> name: password] to be visible 
+2025-05-25 14:43:17 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (947cfd89b2644d03e4897db98353fcb6)] -> name: password] to be visible  is successful
+2025-05-25 14:43:17 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:43:17 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:43:17 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (947cfd89b2644d03e4897db98353fcb6)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:43:17 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (947cfd89b2644d03e4897db98353fcb6)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:43:18 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:43:18 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:43:18 [TestNG-tests-3] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:43:18 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:43:18 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:43:18 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:43:18 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (947cfd89b2644d03e4897db98353fcb6)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:43:18 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (947cfd89b2644d03e4897db98353fcb6)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:43:19 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Chrome Test Ends ************************
+2025-05-25 14:43:19 [TestNG-tests-2] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:43:19 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:43:19 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:43:19 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:43:19 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b7dfbb5d-8841-4216-8d80-7bb5114b686b)] -> name: username] to be visible 
+2025-05-25 14:43:19 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b7dfbb5d-8841-4216-8d80-7bb5114b686b)] -> name: username] to be visible  is successful
+2025-05-25 14:43:19 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:43:19 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:43:19 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b7dfbb5d-8841-4216-8d80-7bb5114b686b)] -> name: password] to be visible 
+2025-05-25 14:43:19 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b7dfbb5d-8841-4216-8d80-7bb5114b686b)] -> name: password] to be visible  is successful
+2025-05-25 14:43:20 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:43:20 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:43:20 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b7dfbb5d-8841-4216-8d80-7bb5114b686b)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:43:20 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b7dfbb5d-8841-4216-8d80-7bb5114b686b)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:43:20 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:43:20 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:43:20 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (22d7be0386c6e2722be23e1759c585aa)] -> name: username] to be visible 
+2025-05-25 14:43:20 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (22d7be0386c6e2722be23e1759c585aa)] -> name: username] to be visible  is successful
+2025-05-25 14:43:20 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:43:20 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:43:20 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (22d7be0386c6e2722be23e1759c585aa)] -> name: password] to be visible 
+2025-05-25 14:43:20 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (22d7be0386c6e2722be23e1759c585aa)] -> name: password] to be visible  is successful
+2025-05-25 14:43:20 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:43:20 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:43:20 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (22d7be0386c6e2722be23e1759c585aa)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:43:20 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (22d7be0386c6e2722be23e1759c585aa)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:43:21 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:43:21 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:43:21 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:43:21 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:43:21 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b7dfbb5d-8841-4216-8d80-7bb5114b686b)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:43:21 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[FirefoxDriver: firefox on windows (b7dfbb5d-8841-4216-8d80-7bb5114b686b)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:43:21 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:43:21 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:43:21 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:43:21 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:43:21 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:43:21 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:43:22 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:43:22 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:43:22 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (22d7be0386c6e2722be23e1759c585aa)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:43:22 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[EdgeDriver: MicrosoftEdge on windows (22d7be0386c6e2722be23e1759c585aa)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:43:22 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:43:22 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:43:22 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:43:22 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:43:23 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:43:23 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:43:23 [TestNG-tests-3] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Firefox Test Ends ************************
+2025-05-25 14:43:23 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:43:23 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:43:23 [TestNG-tests-2] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Edge Test Ends ************************
+2025-05-25 14:51:20 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ Chrome Test Starts ************************
+2025-05-25 14:51:20 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 14:51:20 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opening Chrome Browser
+2025-05-25 14:51:22 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opened Chrome Browser successfully
+2025-05-25 14:51:22 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:51:22 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:51:22 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 14:51:22 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 14:51:27 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 14:51:27 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 14:51:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 14:51:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 14:51:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b57ce6ca3307e49fe8ef93208a1cd2b8)] -> name: username] to be visible 
+2025-05-25 14:51:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b57ce6ca3307e49fe8ef93208a1cd2b8)] -> name: username] to be visible  is successful
+2025-05-25 14:51:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 14:51:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 14:51:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b57ce6ca3307e49fe8ef93208a1cd2b8)] -> name: password] to be visible 
+2025-05-25 14:51:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b57ce6ca3307e49fe8ef93208a1cd2b8)] -> name: password] to be visible  is successful
+2025-05-25 14:51:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 14:51:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 14:51:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b57ce6ca3307e49fe8ef93208a1cd2b8)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 14:51:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b57ce6ca3307e49fe8ef93208a1cd2b8)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 14:51:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 14:51:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b57ce6ca3307e49fe8ef93208a1cd2b8)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (b57ce6ca3307e49fe8ef93208a1cd2b8)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 14:51:31 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Chrome Test Ends ************************
+2025-05-25 15:01:48 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ Chrome Test Starts ************************
+2025-05-25 15:01:48 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 15:01:48 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opening Chrome Browser
+2025-05-25 15:01:50 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opened Chrome Browser successfully
+2025-05-25 15:01:50 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 15:01:50 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 15:01:50 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 15:01:50 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 15:01:56 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 15:01:57 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 15:01:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 15:01:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 15:01:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (6de6f7e547e8619019c266336b614d1c)] -> name: username] to be visible 
+2025-05-25 15:01:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (6de6f7e547e8619019c266336b614d1c)] -> name: username] to be visible  is successful
+2025-05-25 15:01:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 15:01:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 15:01:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (6de6f7e547e8619019c266336b614d1c)] -> name: password] to be visible 
+2025-05-25 15:01:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (6de6f7e547e8619019c266336b614d1c)] -> name: password] to be visible  is successful
+2025-05-25 15:01:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 15:01:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 15:01:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (6de6f7e547e8619019c266336b614d1c)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 15:01:58 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (6de6f7e547e8619019c266336b614d1c)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 15:01:59 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 15:01:59 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (6de6f7e547e8619019c266336b614d1c)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (6de6f7e547e8619019c266336b614d1c)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 15:02:00 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Chrome Test Ends ************************
+2025-05-25 15:02:39 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ Chrome Test Starts ************************
+2025-05-25 15:02:39 [TestNG-tests-1] [] INFO  BaseTest:16 - ************************ invalidTest Method Starts ************************
+2025-05-25 15:02:39 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opening Chrome Browser
+2025-05-25 15:02:40 [TestNG-tests-1] [] INFO  DriverFactory:16 - Opened Chrome Browser successfully
+2025-05-25 15:02:40 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 15:02:40 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 15:02:40 [TestNG-tests-1] [] INFO  PropertiesReader:16 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 15:02:40 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 15:02:47 [TestNG-tests-1] [] INFO  TestExample:16 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 15:02:47 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 15:02:50 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 15:02:50 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field 
+2025-05-25 15:02:50 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (690ac058d3be2ead30cf31e64b3fe976)] -> name: username] to be visible 
+2025-05-25 15:02:50 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (690ac058d3be2ead30cf31e64b3fe976)] -> name: username] to be visible  is successful
+2025-05-25 15:02:50 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in UserName field  is successful
+2025-05-25 15:02:50 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field 
+2025-05-25 15:02:50 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (690ac058d3be2ead30cf31e64b3fe976)] -> name: password] to be visible 
+2025-05-25 15:02:50 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (690ac058d3be2ead30cf31e64b3fe976)] -> name: password] to be visible  is successful
+2025-05-25 15:02:50 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Entering test in Password field  is successful
+2025-05-25 15:02:50 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button 
+2025-05-25 15:02:50 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (690ac058d3be2ead30cf31e64b3fe976)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 15:02:50 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (690ac058d3be2ead30cf31e64b3fe976)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Clicking element - Login Button  is successful
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error 
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (690ac058d3be2ead30cf31e64b3fe976)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Wait for [[ChromeDriver: chrome on windows (690ac058d3be2ead30cf31e64b3fe976)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:16 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Verifying: Verify invalid login
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:16 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loading Properties File
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Loaded Properties File successfully
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:16 - Returning 2 for maxretryCount property
+2025-05-25 15:02:52 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Quitting driver
+2025-05-25 15:02:53 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:16 - Driver closed successfully
+2025-05-25 15:02:53 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ invalidTest Method Ends ************************
+2025-05-25 15:02:53 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:16 - ************************ Chrome Test Ends ************************
+2025-05-25 15:10:17 [TestNG-tests-1] [] INFO  BaseTest:19 - ************************ Chrome Test Starts ************************
+2025-05-25 15:10:17 [TestNG-tests-1] [] INFO  BaseTest:19 - ************************ invalidTest Method Starts ************************
+2025-05-25 15:10:17 [TestNG-tests-1] [] INFO  DriverFactory:19 - Opening Chrome Browser
+2025-05-25 15:10:19 [TestNG-tests-1] [] INFO  DriverFactory:19 - Opened Chrome Browser successfully
+2025-05-25 15:10:19 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:10:19 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:10:19 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 15:10:19 [TestNG-tests-1] [] INFO  TestExample:19 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 15:10:20 [TestNG-tests-1] [] INFO  TestExample:19 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 15:10:25 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 15:10:27 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 15:10:27 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in UserName field 
+2025-05-25 15:10:27 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (9d9bafaf51eddb6e9f37bbda9c3e0b8c)] -> name: username] to be visible 
+2025-05-25 15:10:28 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (9d9bafaf51eddb6e9f37bbda9c3e0b8c)] -> name: username] to be visible  is successful
+2025-05-25 15:10:28 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in UserName field  is successful
+2025-05-25 15:10:28 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in Password field 
+2025-05-25 15:10:28 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (9d9bafaf51eddb6e9f37bbda9c3e0b8c)] -> name: password] to be visible 
+2025-05-25 15:10:28 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (9d9bafaf51eddb6e9f37bbda9c3e0b8c)] -> name: password] to be visible  is successful
+2025-05-25 15:10:28 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in Password field  is successful
+2025-05-25 15:10:28 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Clicking element - Login Button 
+2025-05-25 15:10:28 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (9d9bafaf51eddb6e9f37bbda9c3e0b8c)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 15:10:28 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (9d9bafaf51eddb6e9f37bbda9c3e0b8c)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 15:10:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Clicking element - Login Button  is successful
+2025-05-25 15:10:29 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Getting text from - Login error 
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (9d9bafaf51eddb6e9f37bbda9c3e0b8c)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (9d9bafaf51eddb6e9f37bbda9c3e0b8c)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:19 - Verifying: Verify invalid login
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:19 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Returning 2 for maxretryCount property
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Returning 2 for maxretryCount property
+2025-05-25 15:10:30 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:19 - Quitting driver
+2025-05-25 15:10:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:19 - Driver closed successfully
+2025-05-25 15:10:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:19 - ************************ invalidTest Method Ends ************************
+2025-05-25 15:10:32 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:19 - ************************ Chrome Test Ends ************************
+2025-05-25 15:10:55 [TestNG-tests-1] [] INFO  BaseTest:19 - ************************ Chrome Test Starts ************************
+2025-05-25 15:10:55 [TestNG-tests-1] [] INFO  BaseTest:19 - ************************ invalidTest Method Starts ************************
+2025-05-25 15:10:55 [TestNG-tests-1] [] INFO  DriverFactory:19 - Opening Chrome Browser
+2025-05-25 15:10:56 [TestNG-tests-1] [] INFO  DriverFactory:19 - Opened Chrome Browser successfully
+2025-05-25 15:10:56 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:10:56 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:10:56 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 15:10:56 [TestNG-tests-1] [] INFO  TestExample:19 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 15:11:05 [TestNG-tests-1] [] INFO  TestExample:19 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 15:11:05 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 15:11:06 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 15:11:06 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in UserName field 
+2025-05-25 15:11:06 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (0e175b14c6a431ddf2a3b65b1b386eae)] -> name: username] to be visible 
+2025-05-25 15:11:06 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (0e175b14c6a431ddf2a3b65b1b386eae)] -> name: username] to be visible  is successful
+2025-05-25 15:11:07 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in UserName field  is successful
+2025-05-25 15:11:07 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in Password field 
+2025-05-25 15:11:07 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (0e175b14c6a431ddf2a3b65b1b386eae)] -> name: password] to be visible 
+2025-05-25 15:11:07 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (0e175b14c6a431ddf2a3b65b1b386eae)] -> name: password] to be visible  is successful
+2025-05-25 15:11:07 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in Password field  is successful
+2025-05-25 15:11:07 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Clicking element - Login Button 
+2025-05-25 15:11:07 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (0e175b14c6a431ddf2a3b65b1b386eae)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 15:11:07 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (0e175b14c6a431ddf2a3b65b1b386eae)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Clicking element - Login Button  is successful
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Getting text from - Login error 
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (0e175b14c6a431ddf2a3b65b1b386eae)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (0e175b14c6a431ddf2a3b65b1b386eae)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:19 - Verifying: Verify invalid login
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:19 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Returning 2 for maxretryCount property
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Returning 2 for maxretryCount property
+2025-05-25 15:11:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:19 - Quitting driver
+2025-05-25 15:11:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:19 - Driver closed successfully
+2025-05-25 15:11:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:19 - ************************ invalidTest Method Ends ************************
+2025-05-25 15:11:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:19 - ************************ Chrome Test Ends ************************
+2025-05-25 15:21:56 [TestNG-tests-1] [] INFO  BaseTest:19 - ************************ Chrome Test Starts ************************
+2025-05-25 15:21:56 [TestNG-tests-1] [] INFO  BaseTest:19 - ************************ invalidTest Method Starts ************************
+2025-05-25 15:21:56 [TestNG-tests-1] [] INFO  DriverFactory:19 - Opening Chrome Browser
+2025-05-25 15:21:58 [TestNG-tests-1] [] INFO  DriverFactory:19 - Opened Chrome Browser successfully
+2025-05-25 15:21:58 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:21:58 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:21:58 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 15:21:58 [TestNG-tests-1] [] INFO  TestExample:19 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 15:22:07 [TestNG-tests-1] [] INFO  TestExample:19 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 15:22:07 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in UserName field 
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (da8f42d885774959fa4dc0ebdc86ec3b)] -> name: username] to be visible 
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (da8f42d885774959fa4dc0ebdc86ec3b)] -> name: username] to be visible  is successful
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in UserName field  is successful
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in Password field 
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (da8f42d885774959fa4dc0ebdc86ec3b)] -> name: password] to be visible 
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (da8f42d885774959fa4dc0ebdc86ec3b)] -> name: password] to be visible  is successful
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in Password field  is successful
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Clicking element - Login Button 
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (da8f42d885774959fa4dc0ebdc86ec3b)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (da8f42d885774959fa4dc0ebdc86ec3b)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 15:22:08 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Clicking element - Login Button  is successful
+2025-05-25 15:22:12 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Getting text from - Login error 
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (da8f42d885774959fa4dc0ebdc86ec3b)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (da8f42d885774959fa4dc0ebdc86ec3b)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:19 - Verifying: Verify invalid login
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:19 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Returning 2 for maxretryCount property
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Returning 2 for maxretryCount property
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:19 - Quitting driver
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:19 - Driver closed successfully
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:19 - ************************ invalidTest Method Ends ************************
+2025-05-25 15:22:14 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:19 - ************************ Chrome Test Ends ************************
+2025-05-25 15:22:26 [TestNG-tests-1] [] INFO  BaseTest:19 - ************************ Chrome Test Starts ************************
+2025-05-25 15:22:26 [TestNG-tests-1] [] INFO  BaseTest:19 - ************************ invalidTest Method Starts ************************
+2025-05-25 15:22:26 [TestNG-tests-1] [] INFO  DriverFactory:19 - Opening Chrome Browser
+2025-05-25 15:22:28 [TestNG-tests-1] [] INFO  DriverFactory:19 - Opened Chrome Browser successfully
+2025-05-25 15:22:28 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:22:28 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:22:28 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 15:22:28 [TestNG-tests-1] [] INFO  TestExample:19 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 15:22:36 [TestNG-tests-1] [] INFO  TestExample:19 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 15:22:36 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 15:22:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 15:22:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in UserName field 
+2025-05-25 15:22:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (ffab1176f7479f4cb2aed1e1048359cf)] -> name: username] to be visible 
+2025-05-25 15:22:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (ffab1176f7479f4cb2aed1e1048359cf)] -> name: username] to be visible  is successful
+2025-05-25 15:22:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in UserName field  is successful
+2025-05-25 15:22:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in Password field 
+2025-05-25 15:22:37 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (ffab1176f7479f4cb2aed1e1048359cf)] -> name: password] to be visible 
+2025-05-25 15:22:38 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (ffab1176f7479f4cb2aed1e1048359cf)] -> name: password] to be visible  is successful
+2025-05-25 15:22:38 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in Password field  is successful
+2025-05-25 15:22:38 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Clicking element - Login Button 
+2025-05-25 15:22:38 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (ffab1176f7479f4cb2aed1e1048359cf)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 15:22:38 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (ffab1176f7479f4cb2aed1e1048359cf)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 15:22:38 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Clicking element - Login Button  is successful
+2025-05-25 15:22:39 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Getting text from - Login error 
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (ffab1176f7479f4cb2aed1e1048359cf)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (ffab1176f7479f4cb2aed1e1048359cf)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:19 - Verifying: Verify invalid login
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:19 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Returning 2 for maxretryCount property
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Returning 2 for maxretryCount property
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:19 - Quitting driver
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:19 - Driver closed successfully
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:19 - ************************ invalidTest Method Ends ************************
+2025-05-25 15:22:40 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:19 - ************************ Chrome Test Ends ************************
+2025-05-25 15:22:57 [TestNG-tests-1] [] INFO  BaseTest:19 - ************************ Chrome Test Starts ************************
+2025-05-25 15:22:57 [TestNG-tests-1] [] INFO  BaseTest:19 - ************************ invalidTest Method Starts ************************
+2025-05-25 15:22:57 [TestNG-tests-1] [] INFO  DriverFactory:19 - Opening Chrome Browser
+2025-05-25 15:22:59 [TestNG-tests-1] [] INFO  DriverFactory:19 - Opened Chrome Browser successfully
+2025-05-25 15:22:59 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:22:59 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:22:59 [TestNG-tests-1] [] INFO  PropertiesReader:19 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-05-25 15:22:59 [TestNG-tests-1] [] INFO  TestExample:19 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-05-25 15:23:07 [TestNG-tests-1] [] INFO  TestExample:19 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-05-25 15:23:07 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-05-25 15:23:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-05-25 15:23:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in UserName field 
+2025-05-25 15:23:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (858c1b6e3ca3ee43d9c77b3ce29d897e)] -> name: username] to be visible 
+2025-05-25 15:23:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (858c1b6e3ca3ee43d9c77b3ce29d897e)] -> name: username] to be visible  is successful
+2025-05-25 15:23:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in UserName field  is successful
+2025-05-25 15:23:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in Password field 
+2025-05-25 15:23:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (858c1b6e3ca3ee43d9c77b3ce29d897e)] -> name: password] to be visible 
+2025-05-25 15:23:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (858c1b6e3ca3ee43d9c77b3ce29d897e)] -> name: password] to be visible  is successful
+2025-05-25 15:23:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Entering test in Password field  is successful
+2025-05-25 15:23:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Clicking element - Login Button 
+2025-05-25 15:23:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (858c1b6e3ca3ee43d9c77b3ce29d897e)] -> xpath: //button[@type='submit']] to be visible 
+2025-05-25 15:23:09 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (858c1b6e3ca3ee43d9c77b3ce29d897e)] -> xpath: //button[@type='submit']] to be visible  is successful
+2025-05-25 15:23:10 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Clicking element - Login Button  is successful
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible 
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //div[@role='alert']//p' to be visible  is successful
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Getting text from - Login error 
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (858c1b6e3ca3ee43d9c77b3ce29d897e)] -> xpath: //div[@role='alert']//p] to be visible 
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Wait for [[ChromeDriver: chrome on windows (858c1b6e3ca3ee43d9c77b3ce29d897e)] -> xpath: //div[@role='alert']//p] to be visible  is successful
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  LoginPage:19 - Getting text from - Login error  returned Invalid credentials successfully
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:19 - Verifying: Verify invalid login
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  AssertionUtils:19 - Assertion passed: Verify invalid login | Expected: Invalid credentials | Actual: Invalid credentials
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Returning 2 for maxretryCount property
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loading Properties File
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Loaded Properties File successfully
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  PropertiesReader:19 - Returning 2 for maxretryCount property
+2025-05-25 15:23:11 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:19 - Quitting driver
+2025-05-25 15:23:12 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  DriverFactory:19 - Driver closed successfully
+2025-05-25 15:23:12 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:19 - ************************ invalidTest Method Ends ************************
+2025-05-25 15:23:12 [TestNG-tests-1] [tests.TestExample.invalidTest] INFO  BaseTest:19 - ************************ Chrome Test Ends ************************

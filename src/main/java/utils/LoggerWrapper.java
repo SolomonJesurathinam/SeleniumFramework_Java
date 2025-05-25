@@ -1,8 +1,11 @@
 package utils;
 
 import com.aventstack.chaintest.plugins.ChainTestListener;
+import io.qameta.allure.Allure;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.io.ByteArrayInputStream;
 
 public class LoggerWrapper {
 
@@ -15,6 +18,7 @@ public class LoggerWrapper {
     public void info(String message){
         logger.info(message);
         ChainTestListener.log("[INFO] " + message);
+        logToAllure("INFO", message);
     }
 
     public void warn(String message) {
@@ -32,5 +36,9 @@ public class LoggerWrapper {
         ChainTestListener.log("[DEBUG] " + message);
     }
 
+    private void logToAllure(String level, String message) {
+        Allure.addAttachment("[" + level + "] " + message,
+                new ByteArrayInputStream(message.getBytes()));
+    }
 
 }

@@ -11,12 +11,10 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 public class DriverFactory {
 
     static ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<>();
-//    private static final Logger logger = LogManager.getLogger(DriverFactory.class);
     private static final LoggerWrapper logger = new LoggerWrapper(DriverFactory.class);
 
     public static void setBrowser(String browser){
         if(browser.equalsIgnoreCase("chrome")){
-            driverThreadLocal.set(new ChromeDriver());
             setChromeDriver();
         }
         else if(browser.equalsIgnoreCase("edge")){
