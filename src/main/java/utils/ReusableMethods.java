@@ -1,14 +1,16 @@
 package utils;
 
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import com.aventstack.chaintest.plugins.ChainTestListener;
+import io.qameta.allure.Allure;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.ByteArrayInputStream;
 import java.time.Duration;
+import java.util.Base64;
 import java.util.List;
 
 public class ReusableMethods {
@@ -146,5 +148,15 @@ public class ReusableMethods {
                 }
             }
         }, String.format("Select %s from dynamic dropdown %s ", selectText, eleName), 3, driver, enterTextEle);
+    }
+
+    public void attachScreenshot(WebDriver driver, String imageName){
+        se.runWithHandling(()->{
+            TakesScreenshot ts = (TakesScreenshot) driver;
+            String img = ts.getScreenshotAs(OutputType.BASE64);
+            byte[] decodedImg = Base64.getDecoder().decode(img);
+            ChainTestListener.embed(img,"image/png");
+            Allure.addAttachment(imageName,new ByteArrayInputStream(decodedImg));
+        },"Taking screenshot",1,driver,null);
     }
 }
