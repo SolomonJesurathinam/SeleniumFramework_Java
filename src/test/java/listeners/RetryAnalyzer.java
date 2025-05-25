@@ -14,7 +14,7 @@ public class RetryAnalyzer implements IRetryAnalyzer {
     static {
         PropertiesReader propertiesReader = new PropertiesReader();
         String maxcount = propertiesReader.getProperty("maxretryCount");
-        maxRetryCount = maxcount != null ? Integer.parseInt(propertiesReader.getProperty("maxretryCount")) : 0;
+        maxRetryCount = maxcount != null ? Integer.parseInt(maxcount) : 0;
     }
 
     @Override
