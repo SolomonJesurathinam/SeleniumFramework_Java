@@ -1,6 +1,7 @@
 package pages;
 
 import base.BasePage;
+import io.qameta.allure.Step;
 import org.openqa.selenium.support.PageFactory;
 import pages.locators.AdminPageLocators;
 import utils.AssertionUtils;
@@ -17,11 +18,13 @@ public class AdminPage extends BasePage {
         PageFactory.initElements(driver,adPLocators);
     }
 
+    @Step("Verify Admin Page is loaded")
     public AdminPage verify_page_is_loaded(){
         reusableMethods.waitForElementToBeVisible(driver,30, adPLocators.page_load, "Admin Page");
         return this;
     }
 
+    @Step("Search and verify User Role")
     public AdminPage search_and_verify_userRole(String selectText, String expectedVerify){
         reusableMethods.dynamicDropdown(driver,adPLocators.drop_userRole, adPLocators.drop_section_verify,selectText,"User Role",adPLocators.generic_drop_values);
         reusableMethods.clickElement(adPLocators.btn_search,driver,"Search");

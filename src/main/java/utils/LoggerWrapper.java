@@ -2,9 +2,11 @@ package utils;
 
 import com.aventstack.chaintest.plugins.ChainTestListener;
 import io.qameta.allure.Allure;
+import io.qameta.allure.model.Status;
+import io.qameta.allure.model.StepResult;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import java.io.ByteArrayInputStream;
+import java.util.UUID;
 
 public class LoggerWrapper {
 
@@ -39,8 +41,13 @@ public class LoggerWrapper {
     }
 
     private void logToAllure(String level, String message) {
-        Allure.addAttachment("[" + level + "] " + message,
-                new ByteArrayInputStream(message.getBytes()));
+        String subStepUuid = UUID.randomUUID().toString();
+        StepResult subStep = new StepResult().setName("[" + level + "] " + message);
+        Allure.getLifecycle().startStep(subStepUuid, subStep);
+        Allure.getLifecycle().updateStep(subStepUuid,step->step.setStatus(Status.PASSED));
+        Allure.getLifecycle().updateStep(subStepUuid, step->
+                step.setStatus(level.equalsIgnoreCase("Error") ? Status.FAILED : Status.PASSED));
+        Allure.getLifecycle().stopStep(subStepUuid);
     }
 
 }

@@ -1,6 +1,7 @@
 package tests;
 
 import base.BaseTest;
+import io.qameta.allure.Step;
 import org.testng.annotations.Test;
 import pages.AdminPage;
 import pages.DashboardPage;

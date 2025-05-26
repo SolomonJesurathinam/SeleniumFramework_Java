@@ -1,6 +1,7 @@
 package pages;
 
 import base.BasePage;
+import io.qameta.allure.Step;
 import org.openqa.selenium.support.PageFactory;
 import pages.locators.LoginPageLocators;
 import utils.AssertionUtils;
@@ -17,11 +18,13 @@ public class LoginPage extends BasePage {
         PageFactory.initElements(driver, lpLoators);
     }
 
+    @Step("Verify Login Page is loaded")
     public LoginPage verify_page_is_loaded() {
         reusableMethods.waitForElementToBeVisible(driver, 30, lpLoators.pageLoad, "Login Page Load");
         return this;
     }
 
+    @Step("Login to application with valid credentials")
     public LoginPage login_to_application(String username, String password) {
         reusableMethods.enterText(username, lpLoators.txt_userName, driver, "UserName field");
         reusableMethods.enterText(password, lpLoators.txt_password, driver, "Password field");
@@ -29,6 +32,7 @@ public class LoginPage extends BasePage {
         return this;
     }
 
+    @Step("Try to login to application with invalid credentials")
     public LoginPage invalid_login(String username, String password, String expected) {
         reusableMethods.enterText(username, lpLoators.txt_userName, driver, "UserName field");
         reusableMethods.enterText(password, lpLoators.txt_password, driver, "Password field");
@@ -38,5 +42,4 @@ public class LoginPage extends BasePage {
         AssertionUtils.assertEquals(error,expected,"Verify invalid login");
         return this;
     }
-
 }
