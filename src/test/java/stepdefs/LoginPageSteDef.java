@@ -21,4 +21,9 @@ public class LoginPageSteDef {
     public void enter_invalid_login(String username, String password, String message){
         loginPage.invalid_login(username, password, message);
     }
+
+    @Then("Enter valid {string} and {string} and login")
+    public void enter_valid_login(String username, String password){
+        loginPage.login_to_application(username, password);
+    }
 }

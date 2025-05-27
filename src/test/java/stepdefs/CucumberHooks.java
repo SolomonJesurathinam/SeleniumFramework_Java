@@ -6,6 +6,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.apache.logging.log4j.ThreadContext;
 import org.openqa.selenium.WebDriver;
+import runners.CustomCucumberTestNGTests;
 import utils.DriverFactory;
 import utils.LoggerWrapper;
 import utils.ReusableMethods;
@@ -21,7 +22,8 @@ public class CucumberHooks {
         String methodName = scenario.getName();
         logger.info(String.format("************************ %s Method Starts ************************", methodName));
         ThreadContext.put("testName", methodName);
-        DriverFactory.setBrowser(propertiesReader.getProperty("browser"));
+        String browser = CustomCucumberTestNGTests.browser.get();
+        DriverFactory.setBrowser(browser);
         WebDriver driver = DriverFactory.getDriver();
         reusableMethods.openURL(propertiesReader.getProperty("url"), driver);
     }
