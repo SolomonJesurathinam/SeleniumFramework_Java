@@ -37,4 +37,12 @@ public class AssertionUtils {
         }
     }
 
+    /**
+     * Assertion Failure.
+     */
+    public static void assertFail(String description) {
+        logger.info(String.format("Assertion Failed: %s", description));
+        Assert.fail(description);
+    }
+
 }

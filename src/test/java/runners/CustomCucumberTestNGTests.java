@@ -30,7 +30,6 @@ public class CustomCucumberTestNGTests extends AbstractTestNGCucumberTests {
     @Parameters({"browser"})
     public void test(@Optional("") String xmlBrowser){
         CustomCucumberTestNGTests.browser.set(returnBrowser(xmlBrowser));
-        System.out.println("Browser --- "+browser.get());
     }
 
     @AfterTest
