@@ -12,6 +12,7 @@ import java.io.ByteArrayInputStream;
 import java.time.Duration;
 import java.util.Base64;
 import java.util.List;
+import java.util.Optional;
 
 public class ReusableMethods {
 
@@ -122,13 +123,16 @@ public class ReusableMethods {
             waitForElementToBeVisible(driver, 30, clickEle, eleName);
             clickElement(clickEle, driver, eleName);
             waitForElementToBeVisible(driver, 10, dropSectionCheck, "Dropdown list");
-            for (WebElement drop : dropList) {
-                String text = getTextOfElement(drop, driver, eleName);
-                if (text.equals(selectText)) {
-                    clickElement(drop, driver, text);
-                    break;
-                }
+
+            Optional<WebElement> option = dropList.stream().filter(webElement ->
+                webElement.getText().trim().equalsIgnoreCase(selectText)).findFirst();
+
+            if(option.isPresent()){
+                clickElement(option.get(),driver, "Dropdown Option");
+            }else{
+                throw new RuntimeException("Element with text '" + selectText + "' not found in drop list.");
             }
+
         }, String.format("Selecting %s from dynamic dropdown %s ", selectText, eleName), 3, driver, clickEle);
     }
 

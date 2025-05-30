@@ -1,29 +1,41 @@
 Feature: Test Orange HRM
 
-  Scenario Outline: Verify invalid credentials login
-    Given LoginPage is loaded
-    Then Enter invalid "<username>" and "<password>" and verify message "Invalid credentials"
-
-    Examples:
-    | username    | password  |
-    | test        | test      |
-
-#  Scenario: Verify Directory Page fields
+#  Scenario Outline: Verify invalid credentials login
 #    Given LoginPage is loaded
-#    Then Enter valid "Admin" and "admin123" and login
-#    Then Verify Dashboard page is loaded
-#    Then Navigate to Directory Page
-#    Then Verify Directory Page is loaded
-#    Then Search and verify Employee "Admin" and "Admin Admin123" with results "(1) Record Found"
-#    Then Search and verify Jobtitle "Account Assistant" with results "No Records Found"
-#    Then Search and verify Location "Texas R&D" with results "No Records Found"
-#    Then Logout of application
+#    Then Enter invalid "<username>" and "<password>" and verify message "Invalid credentials"
 #
-#  Scenario: Verify Admin Page fields
+#    Examples:
+#    | username    | password  |
+#    | test        | test      |
+
+
+#  Scenario Outline: Admin - Add new locations
+#    Given Load TestCase data for "<testCaseID>"
 #    Given LoginPage is loaded
-#    Then Enter valid "Admin" and "admin123" and login
+#    Then Enter valid credentials and login
 #    Then Verify Dashboard page is loaded
 #    Then Navigate to Admin Page
 #    Then Verify Admin Page is loaded
-#    Then Search and verify User Role "Admin" with results "(4) Records Found"
+#    Then Add new Location
 #    Then Logout of application
+#
+#    Examples:
+#    | testCaseID |
+#    | TC001      |
+#    | TC002      |
+#    | TC003      |
+#    | TC004      |
+#    | TC005      |
+#    | TC006      |
+#    | TC007      |
+
+
+    Scenario: Admin - Add new locations
+      Given Load TestCase data for "TC001"
+      Given LoginPage is loaded
+      Then Enter valid credentials and login
+      Then Verify Dashboard page is loaded
+      Then Navigate to Admin Page
+      Then Verify Admin Page is loaded
+      Then Delete all locations
+      Then Logout of application

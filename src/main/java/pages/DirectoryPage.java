@@ -48,9 +48,15 @@ public class DirectoryPage extends BasePage {
     public DirectoryPage search_and_Verify_jobTitle_NoRecords(String selectText, String noRecordsExp){
         reusableMethods.dynamicDropdown(driver,dpLocators.drop_jobTitle,dpLocators.dropList_generic_verify,selectText,"Job Title",dpLocators.lst_drop_generic);
         reusableMethods.clickElement(dpLocators.btn_search,driver,"Search");
-        reusableMethods.waitForElementToBeVisible(driver, 10, dpLocators.popup_noRecords,"No Records Popup");
-        String actual = reusableMethods.getTextOfElement(dpLocators.popup_noRecords,driver,"No Records popup");
-        AssertionUtils.assertEquals(actual,noRecordsExp,"No Records comparing");
+        reusableMethods.waitForElementToBeVisible(driver, 5, dpLocators.spinner, "Loading Spinner");
+        reusableMethods.waitForElementToBeInVisible(driver, 30, dpLocators.spinner, "Loading Spinner");
+        String records = reusableMethods.getTextOfElement(dpLocators.msg_records,driver,"Message Records");
+        if(records.equalsIgnoreCase("No Records Found")){
+            reusableMethods.waitForElementToBeVisible(driver, 10, dpLocators.popup_noRecords,"No Records Popup");
+            String actual = reusableMethods.getTextOfElement(dpLocators.popup_noRecords,driver,"No Records popup");
+            AssertionUtils.assertEquals(actual,noRecordsExp,"No Records comparing");
+        }
+        AssertionUtils.assertEquals(records,noRecordsExp, "Records Count");
         return this;
     }
 
@@ -61,6 +67,11 @@ public class DirectoryPage extends BasePage {
         reusableMethods.waitForElementToBeVisible(driver, 5, dpLocators.spinner, "Loading Spinner");
         reusableMethods.waitForElementToBeInVisible(driver, 30, dpLocators.spinner, "Loading Spinner");
         String records = reusableMethods.getTextOfElement(dpLocators.msg_records,driver,"Message Records");
+        if(records.equalsIgnoreCase("No Records Found")){
+            reusableMethods.waitForElementToBeVisible(driver, 10, dpLocators.popup_noRecords,"No Records Popup");
+            String actual = reusableMethods.getTextOfElement(dpLocators.popup_noRecords,driver,"No Records popup");
+            AssertionUtils.assertEquals(actual,expectedVerify,"No Records comparing");
+        }
         AssertionUtils.assertEquals(records,expectedVerify, "Records Count");
         return this;
     }

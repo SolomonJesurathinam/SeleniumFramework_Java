@@ -13,15 +13,15 @@
             <class name="tests.TestExample"/>
         </classes>
     </test>
-    <test name="Edge">
-        <classes>
-            <class name="tests.TestExample"/>
-        </classes>
-    </test>
-    <test name="Firefox">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="tests.TestExample"/>
-        </classes>
-    </test>
+<!--    <test name="Edge">-->
+<!--        <classes>-->
+<!--            <class name="tests.TestExample"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Firefox">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.TestExample"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

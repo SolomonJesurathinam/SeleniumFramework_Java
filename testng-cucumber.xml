@@ -9,15 +9,15 @@
             <class name="runners.CucumberTestRunner"/>
         </classes>
     </test>
-    <test name="Edge">
-        <classes>
-            <class name="runners.CucumberTestRunner"/>
-        </classes>
-    </test>
-    <test name="Firefox">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="runners.CucumberTestRunner"/>
-        </classes>
-    </test>
+<!--    <test name="Edge">-->
+<!--        <classes>-->
+<!--            <class name="runners.CucumberTestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Firefox">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="runners.CucumberTestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

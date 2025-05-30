@@ -30,4 +30,52 @@ public class AdminPageLocators {
 
     @FindBy(xpath = "(//span[@class='oxd-text oxd-text--span'])[1]")
     public WebElement msg_records;
+
+    @FindBy(xpath = "//span[text()='Organization ']")
+    public WebElement lnk_organization;
+
+    @FindBy(xpath = "//a[text()='Locations']")
+    public WebElement lnk_locations;
+
+    @FindBy(xpath = "//h5[text()='Locations']")
+    public WebElement txt_location_check;
+
+    @FindBy(xpath = "//button[text()=' Add ']")
+    public WebElement lnk_add;
+
+    @FindBy(xpath = "//h6[text()='Add Location']")
+    public WebElement txt_addLocation_check;
+
+    @FindBy(xpath = "(//form[@class='oxd-form']//input)[1]")
+    public WebElement input_name;
+
+    @FindBy(xpath = "(//form[@class='oxd-form']//input)[2]")
+    public WebElement input_city;
+
+    @FindBy(xpath = "(//form[@class='oxd-form']//input)[3]")
+    public WebElement input_state;
+
+    @FindBy(xpath = "(//form[@class='oxd-form']//input)[4]")
+    public WebElement input_zipcode;
+
+    @FindBy(xpath = "(//form[@class='oxd-form']//input)[5]")
+    public WebElement input_phone;
+
+    @FindBy(xpath = "(//form[@class='oxd-form']//textarea)[1]")
+    public WebElement txtarea_address;
+
+    @FindBy(xpath = "//label[text()='Country']/../../div[2]/div/div")
+    public WebElement drop_country;
+
+    @FindBy(xpath = "//button[text()=' Save ']")
+    public WebElement btn_save;
+
+    @FindBy(xpath = "//div[@id='oxd-toaster_1']//p[2]")
+    public WebElement popup_noRecords;
+
+    @FindBy(xpath = "//div/button[@class='oxd-icon-button oxd-table-cell-action-space'][1]")
+    public List<WebElement> delete_location;
+
+    @FindBy(xpath = "//button[text()=' Yes, Delete ']")
+    public WebElement btn_delete_confirm;
 }
