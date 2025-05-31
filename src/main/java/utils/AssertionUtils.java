@@ -1,12 +1,10 @@
 package utils;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import io.restassured.response.Response;
 import org.testng.Assert;
 
 public class AssertionUtils {
 
-    //    private static final Logger logger = LogManager.getLogger(AssertionUtils.class);
     private static final LoggerWrapper logger = new LoggerWrapper(AssertionUtils.class);
 
     /**
@@ -43,6 +41,16 @@ public class AssertionUtils {
     public static void assertFail(String description) {
         logger.info(String.format("Assertion Failed: %s", description));
         Assert.fail(description);
+    }
+
+    // ================================================================
+    //                     API-Specific Assertion Methods
+    // ================================================================
+
+    public static void assertStatusCode(Response response, int expectedStatusCode){
+        int actualStatusCode = response.getStatusCode();
+        String description = "Status code verification";
+        
     }
 
 }

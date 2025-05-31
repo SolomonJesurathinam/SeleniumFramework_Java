@@ -12207,3 +12207,59 @@
 2025-05-30 20:45:26 [main] [] INFO  AllureHelper:20 - Allure environment.properties generated automatically.
 2025-05-30 20:45:30 [main] [] INFO  AllureHelper:20 - [Allure] Report successfully generated to C:\Users\solom\IdeaProjects\SeleniumFramework_Java\target\allure-report\Report_20250530-204526
 2025-05-30 20:45:30 [main] [] INFO  AllureHelper:20 - Allure report generated at: C:\Users\solom\IdeaProjects\SeleniumFramework_Java\target\allure-report\Report_20250530-204526
+2025-05-31 01:20:06 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:20:06 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:20:06 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:21:09 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:21:09 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:21:09 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:45:12 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:45:12 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:45:12 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:45:13 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:45:13 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:45:13 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:47:16 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:47:16 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:47:16 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:47:17 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:47:17 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:47:17 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:52:12 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:52:12 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:52:12 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:52:13 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:52:13 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:52:13 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:53:53 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:53:53 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:53:53 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:53:54 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:53:54 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:53:54 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:54:47 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:54:47 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:54:47 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:54:48 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:54:48 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:54:48 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:55:41 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:55:41 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:55:41 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 01:55:42 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 01:55:42 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 01:55:42 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 13:53:52 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 13:53:52 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 13:53:52 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 13:53:54 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 13:53:54 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 13:53:54 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 13:53:55 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest@gmail.com","password":"apiTestPassword@258"} from map to json
+2025-05-31 13:54:44 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 13:54:44 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 13:54:44 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 13:54:45 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-05-31 13:54:45 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-05-31 13:54:45 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-05-31 13:54:46 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest@gmail.com","password":"apiTestPassword@258"} from map to json
