@@ -42,7 +42,7 @@ public class BaseTest {
     @Parameters({"browser"})
     public void openBrowser(Method method, @Optional("") String xmlBrowser) {
         String methodName = method.getName();
-        logger.info(String.format("************************ %s Method Starts ************************", methodName));
+        logger.info(String.format("************************ %s Method Starts *************************", methodName));
         DriverFactory.setBrowser(returnBrowser(xmlBrowser));
         driver = DriverFactory.getDriver();
         reusableMethods.openURL(propertiesReader.getProperty("url"), driver);
