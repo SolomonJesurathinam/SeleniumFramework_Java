@@ -12,5 +12,4 @@ public class Note {
     private String title;
     private String description;
     private String category;
-
 }

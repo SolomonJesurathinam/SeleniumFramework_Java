@@ -16,7 +16,7 @@ public class AuthenticationClient {
 
     public static String getToken(){
         if(threadLocalToken.get() == null){
-            threadLocalToken.set(login("apiTest","apiTestPassword@2580123"));
+            threadLocalToken.set(login("apiTest1@gmail.com","apiTestPassword@2580123"));
         }
         return threadLocalToken.get();
     }

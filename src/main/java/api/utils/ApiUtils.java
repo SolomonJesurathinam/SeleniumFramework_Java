@@ -1,10 +1,14 @@
 package api.utils;
 
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.restassured.response.Response;
 import utils.LoggerWrapper;
 
 import java.util.Map;
+import java.util.function.Supplier;
 
 public class ApiUtils {
 
@@ -29,7 +33,8 @@ public class ApiUtils {
     public Map<String, Object> jsonToMap(String json){
         try{
             ObjectMapper objectMapper = new ObjectMapper();
-            Map<String, Object> map = objectMapper.readValue(json, Map.class);
+            TypeReference<Map<String, Object>> typeRef = new TypeReference<>() {};
+            Map<String, Object> map = objectMapper.readValue(json, typeRef);
             logger.info(String.format("Returning %s from json to map",map));
             return map;
         } catch (Exception e){
@@ -38,5 +43,26 @@ public class ApiUtils {
         }
     }
 
+    public <T> T responseToClass(Response response, Class<T> clazz)  {
+        try{
+            logger.info(String.format("Converting response JSON to class: %s", clazz.getSimpleName()));
+            ObjectMapper objectMapper = new ObjectMapper();
+            T obj = objectMapper.readValue(response.asString(),clazz);
+            logger.info(String.format("Successfully converted JSON to %s", clazz.getSimpleName()));
+            return obj;
+        } catch (JsonProcessingException e){
+            logger.error(String.format("Failed to convert JSON to %s %s", clazz.getSimpleName(), e));
+            throw new RuntimeException("Failed to convert JSON to " + clazz.getSimpleName(), e);
+        }
+    }
+
+    public Response executeWithTokenRefresh(Supplier<Response> apiCall, Runnable tokenRefresher){
+        Response response = apiCall.get();
+        if(response.getStatusCode() == 401){
+            tokenRefresher.run();
+            response = apiCall.get();
+        }
+        return response;
+    }
 
 }

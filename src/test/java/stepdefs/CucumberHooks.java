@@ -15,7 +15,7 @@ public class CucumberHooks {
 
     LoggerWrapper logger = new LoggerWrapper(CucumberHooks.class);
     PropertiesReader propertiesReader = new PropertiesReader();
-    ReusableMethods reusableMethods = new ReusableMethods(CucumberHooks.class);
+        ReusableMethods reusableMethods = new ReusableMethods(CucumberHooks.class);
 
     @Before
     public void openBrowser(Scenario scenario) {

@@ -12263,3 +12263,1068 @@
 2025-05-31 13:54:45 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
 2025-05-31 13:54:45 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
 2025-05-31 13:54:46 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest@gmail.com","password":"apiTestPassword@258"} from map to json
+2025-07-01 17:02:34 [main] [] INFO  AllureHelper:20 - Cleared existing allure-results folder
+2025-07-01 17:02:34 [TestNG-tests-1] [] INFO  BaseTest:20 - ************************ Chrome Test Starts ************************
+2025-07-01 17:02:34 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converting test id's to Object array
+2025-07-01 17:02:34 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:02:34 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:02:34 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:02:34 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:02:34 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:02:34 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:02:34 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieving test id for Admin
+2025-07-01 17:02:35 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:02:35 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:02:35 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle themefd26doctype
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stylesheet5d8bdoctype
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctstylesheet4257type
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfonts6623type
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfont14d8type
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfills2c6ftype
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfill550ctype
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborders0d66type
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborderf935type
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellxfs1322type
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctxf97f7type
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellstylexfsa81ftype
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctdxfsb26atype
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle cttablestyles872ftype
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle sstf81fdoctype
+2025-07-01 17:02:35 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsst44f3type
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrsta472type
+2025-07-01 17:02:36 [TestNG-tests-1] [] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle workbookec17doctype
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworkbook83c3type
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheets49fdtype
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheet4dbetype
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle strelationshipid1e94type
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle worksheetf539doctype
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworksheet530dtype
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcols627ctype
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcola95ftype
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheetdata8408type
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrowdd39type
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcell842btype
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcellrefe4e0type
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stxstringf179type
+2025-07-01 17:02:36 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcelltypebf95type
+2025-07-01 17:02:36 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieved test id's  [TC007] for Admin
+2025-07-01 17:02:36 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converted test id's to Object array - [[Ljava.lang.Object;@63825377 for Admin
+2025-07-01 17:02:36 [TestNG-PoolService-1] [] INFO  BaseTest:20 - ************************ admin_add_new_location Method Starts *************************
+2025-07-01 17:02:36 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opening Chrome Browser
+2025-07-01 17:02:41 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opened Chrome Browser successfully
+2025-07-01 17:02:41 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:02:41 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:02:41 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-07-01 17:02:41 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-07-01 17:02:44 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieving data for TC007
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stcellstylexfid70c7type
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stnumfmtid76fbtype
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle ctworkbookpr03a5type
+2025-07-01 17:02:44 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieved data {TestID=TC007, Execution=Y, Module=Admin, userName=Admin, password=admin123, name=Testing10, city=Chennai, state=TN, zipcode=600007, address=12, street, country=Malaysia} for TC007
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (404bc9a6791fc5c33fab0a853c2ab90b)] -> xpath: //img[@alt='company-branding']] to be visible 
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (404bc9a6791fc5c33fab0a853c2ab90b)] -> xpath: //img[@alt='company-branding']] to be visible  is successful
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Entering null in UserName field 
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (404bc9a6791fc5c33fab0a853c2ab90b)] -> name: username] to be visible 
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (404bc9a6791fc5c33fab0a853c2ab90b)] -> name: username] to be visible  is successful
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] WARN  LoginPage:26 - [ Entering null in UserName field  ] - Attempt 1 : IllegalArgumentException
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] ERROR LoginPage:32 - Unrecoverable exception. Aborting: Entering null in UserName field 
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning 0 for maxretryCount property
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Checking if the test needs to be retried - 2
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Retry completed or not needed for admin_add_new_location 
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Taking screenshot
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Taking screenshot is successful
+2025-07-01 17:02:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Quitting driver
+2025-07-01 17:02:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Driver closed successfully
+2025-07-01 17:02:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  BaseTest:20 - ************************ admin_add_new_location Method Ends ************************
+2025-07-01 17:02:46 [TestNG-tests-1] [] INFO  BaseTest:20 - ************************ Chrome Test Ends ************************
+2025-07-01 17:02:46 [main] [] INFO  AllureHelper:20 - Allure environment.properties generated automatically.
+2025-07-01 17:02:49 [main] [] INFO  AllureHelper:20 - [Allure] Report successfully generated to C:\Users\solomonj\IdeaProjects\SeleniumFramework\target\allure-report\Report_20250701-170246
+2025-07-01 17:02:50 [main] [] INFO  AllureHelper:20 - Allure report generated at: C:\Users\solomonj\IdeaProjects\SeleniumFramework\target\allure-report\Report_20250701-170246
+2025-07-01 17:03:25 [main] [] INFO  AllureHelper:20 - Cleared existing allure-results folder
+2025-07-01 17:03:25 [TestNG-tests-1] [] INFO  BaseTest:20 - ************************ Chrome Test Starts ************************
+2025-07-01 17:03:25 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converting test id's to Object array
+2025-07-01 17:03:25 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:03:25 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:03:25 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:03:25 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:03:25 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:03:25 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:03:25 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieving test id for Admin
+2025-07-01 17:03:26 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:03:26 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:03:26 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle themefd26doctype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stylesheet5d8bdoctype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctstylesheet4257type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfonts6623type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfont14d8type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfills2c6ftype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfill550ctype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborders0d66type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborderf935type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellxfs1322type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctxf97f7type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellstylexfsa81ftype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctdxfsb26atype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle cttablestyles872ftype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle sstf81fdoctype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsst44f3type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrsta472type
+2025-07-01 17:03:26 [TestNG-tests-1] [] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle workbookec17doctype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworkbook83c3type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheets49fdtype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheet4dbetype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle strelationshipid1e94type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle worksheetf539doctype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworksheet530dtype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcols627ctype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcola95ftype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheetdata8408type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrowdd39type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcell842btype
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcellrefe4e0type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stxstringf179type
+2025-07-01 17:03:26 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcelltypebf95type
+2025-07-01 17:03:26 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieved test id's  [TC007] for Admin
+2025-07-01 17:03:26 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converted test id's to Object array - [[Ljava.lang.Object;@23fa0ade for Admin
+2025-07-01 17:03:27 [TestNG-PoolService-1] [] INFO  BaseTest:20 - ************************ admin_add_new_location Method Starts *************************
+2025-07-01 17:03:27 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opening Chrome Browser
+2025-07-01 17:03:30 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opened Chrome Browser successfully
+2025-07-01 17:03:30 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:03:30 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:03:30 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-07-01 17:03:30 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-07-01 17:03:33 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieving data for TC007
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stcellstylexfid70c7type
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stnumfmtid76fbtype
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle ctworkbookpr03a5type
+2025-07-01 17:03:33 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieved data {TestID=TC007, Execution=Y, Module=Admin, userName=Admin, password=admin123, name=Testing10, city=Chennai, state=TN, zipcode=600007, address=12, street, country=Malaysia} for TC007
+2025-07-01 17:03:34 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (4d57f0c1b556f713d2883b3d51e95b33)] -> xpath: //img[@alt='company-branding']] to be visible 
+2025-07-01 17:03:34 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (4d57f0c1b556f713d2883b3d51e95b33)] -> xpath: //img[@alt='company-branding']] to be visible  is successful
+2025-07-01 17:03:34 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Entering null in UserName field 
+2025-07-01 17:03:34 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (4d57f0c1b556f713d2883b3d51e95b33)] -> name: username] to be visible 
+2025-07-01 17:03:34 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (4d57f0c1b556f713d2883b3d51e95b33)] -> name: username] to be visible  is successful
+2025-07-01 17:03:34 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] WARN  LoginPage:26 - [ Entering null in UserName field  ] - Attempt 1 : IllegalArgumentException
+2025-07-01 17:03:34 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] ERROR LoginPage:32 - Unrecoverable exception. Aborting: Entering null in UserName field 
+2025-07-01 17:03:35 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:03:35 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:03:35 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning 0 for maxretryCount property
+2025-07-01 17:03:43 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Checking if the test needs to be retried - 2
+2025-07-01 17:03:43 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Retry completed or not needed for admin_add_new_location 
+2025-07-01 17:03:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Taking screenshot
+2025-07-01 17:03:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Taking screenshot is successful
+2025-07-01 17:03:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Quitting driver
+2025-07-01 17:03:47 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Driver closed successfully
+2025-07-01 17:03:47 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  BaseTest:20 - ************************ admin_add_new_location Method Ends ************************
+2025-07-01 17:03:47 [TestNG-tests-1] [] INFO  BaseTest:20 - ************************ Chrome Test Ends ************************
+2025-07-01 17:03:47 [main] [] INFO  AllureHelper:20 - Allure environment.properties generated automatically.
+2025-07-01 17:03:50 [main] [] INFO  AllureHelper:20 - [Allure] Report successfully generated to C:\Users\solomonj\IdeaProjects\SeleniumFramework\target\allure-report\Report_20250701-170347
+2025-07-01 17:03:50 [main] [] INFO  AllureHelper:20 - Allure report generated at: C:\Users\solomonj\IdeaProjects\SeleniumFramework\target\allure-report\Report_20250701-170347
+2025-07-01 17:04:12 [main] [] INFO  AllureHelper:20 - Cleared existing allure-results folder
+2025-07-01 17:04:12 [TestNG-tests-1] [] INFO  BaseTest:20 - ************************ Chrome Test Starts ************************
+2025-07-01 17:04:12 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converting test id's to Object array
+2025-07-01 17:04:12 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:04:12 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:04:12 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:04:12 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:04:12 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:04:12 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:04:12 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieving test id for Admin
+2025-07-01 17:04:12 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:04:12 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:04:12 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:04:12 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle themefd26doctype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stylesheet5d8bdoctype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctstylesheet4257type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfonts6623type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfont14d8type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfills2c6ftype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfill550ctype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborders0d66type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborderf935type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellxfs1322type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctxf97f7type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellstylexfsa81ftype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctdxfsb26atype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle cttablestyles872ftype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle sstf81fdoctype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsst44f3type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrsta472type
+2025-07-01 17:04:13 [TestNG-tests-1] [] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle workbookec17doctype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworkbook83c3type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheets49fdtype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheet4dbetype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle strelationshipid1e94type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle worksheetf539doctype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworksheet530dtype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcols627ctype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcola95ftype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheetdata8408type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrowdd39type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcell842btype
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcellrefe4e0type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stxstringf179type
+2025-07-01 17:04:13 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcelltypebf95type
+2025-07-01 17:04:13 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieved test id's  [TC007] for Admin
+2025-07-01 17:04:13 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converted test id's to Object array - [[Ljava.lang.Object;@14ec36ab for Admin
+2025-07-01 17:04:13 [TestNG-PoolService-1] [] INFO  BaseTest:20 - ************************ admin_add_new_location Method Starts *************************
+2025-07-01 17:04:13 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opening Chrome Browser
+2025-07-01 17:04:17 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opened Chrome Browser successfully
+2025-07-01 17:04:17 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:04:17 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:04:17 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-07-01 17:04:17 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-07-01 17:04:20 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieving data for TC007
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stcellstylexfid70c7type
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stnumfmtid76fbtype
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle ctworkbookpr03a5type
+2025-07-01 17:04:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieved data {TestID=TC007, Execution=Y, Module=Admin, userName=Admin, password=admin123, name=Testing10, city=Chennai, state=TN, zipcode=600007, address=12, street, country=Malaysia} for TC007
+2025-07-01 17:04:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (8da90cc9f37750e99b73f1aa8e2f1da8)] -> xpath: //img[@alt='company-branding']] to be visible 
+2025-07-01 17:04:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (8da90cc9f37750e99b73f1aa8e2f1da8)] -> xpath: //img[@alt='company-branding']] to be visible  is successful
+2025-07-01 17:04:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Entering null in UserName field 
+2025-07-01 17:04:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (8da90cc9f37750e99b73f1aa8e2f1da8)] -> name: username] to be visible 
+2025-07-01 17:04:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (8da90cc9f37750e99b73f1aa8e2f1da8)] -> name: username] to be visible  is successful
+2025-07-01 17:04:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] WARN  LoginPage:26 - [ Entering null in UserName field  ] - Attempt 1 : IllegalArgumentException
+2025-07-01 17:04:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] ERROR LoginPage:32 - Unrecoverable exception. Aborting: Entering null in UserName field 
+2025-07-01 17:04:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:04:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:04:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning 0 for maxretryCount property
+2025-07-01 17:05:07 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Checking if the test needs to be retried - 2
+2025-07-01 17:05:07 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Retry completed or not needed for admin_add_new_location 
+2025-07-01 17:05:07 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Taking screenshot
+2025-07-01 17:05:19 [main] [] INFO  AllureHelper:20 - Cleared existing allure-results folder
+2025-07-01 17:05:19 [TestNG-tests-1] [] INFO  BaseTest:20 - ************************ Chrome Test Starts ************************
+2025-07-01 17:05:19 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converting test id's to Object array
+2025-07-01 17:05:19 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:05:19 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:05:19 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:05:19 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:05:19 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:05:19 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:05:19 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieving test id for Admin
+2025-07-01 17:05:20 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:05:20 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:05:20 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle themefd26doctype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stylesheet5d8bdoctype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctstylesheet4257type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfonts6623type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfont14d8type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfills2c6ftype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfill550ctype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborders0d66type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborderf935type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellxfs1322type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctxf97f7type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellstylexfsa81ftype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctdxfsb26atype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle cttablestyles872ftype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle sstf81fdoctype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsst44f3type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrsta472type
+2025-07-01 17:05:20 [TestNG-tests-1] [] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle workbookec17doctype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworkbook83c3type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheets49fdtype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheet4dbetype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle strelationshipid1e94type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle worksheetf539doctype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworksheet530dtype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcols627ctype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcola95ftype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheetdata8408type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrowdd39type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcell842btype
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcellrefe4e0type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stxstringf179type
+2025-07-01 17:05:20 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcelltypebf95type
+2025-07-01 17:05:20 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieved test id's  [TC007] for Admin
+2025-07-01 17:05:20 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converted test id's to Object array - [[Ljava.lang.Object;@73dd6e68 for Admin
+2025-07-01 17:05:20 [TestNG-PoolService-1] [] INFO  BaseTest:20 - ************************ admin_add_new_location Method Starts *************************
+2025-07-01 17:05:21 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opening Chrome Browser
+2025-07-01 17:05:24 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opened Chrome Browser successfully
+2025-07-01 17:05:24 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:05:24 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:05:24 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-07-01 17:05:24 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-07-01 17:05:27 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-07-01 17:05:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:05:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:05:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:05:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:05:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:05:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:05:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieving data for TC007
+2025-07-01 17:05:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:05:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:05:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:05:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:05:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stcellstylexfid70c7type
+2025-07-01 17:05:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stnumfmtid76fbtype
+2025-07-01 17:05:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle ctworkbookpr03a5type
+2025-07-01 17:05:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieved data {TestID=TC007, Execution=Y, Module=Admin, userName=Admin, password=admin123, name=Testing10, city=Chennai, state=TN, zipcode=600007, address=12, street, country=Malaysia} for TC007
+2025-07-01 17:05:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-07-01 17:05:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-07-01 17:05:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Entering null in UserName field 
+2025-07-01 17:05:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (cd8fb1fa344a88bd21636e1de39a83ff)] -> name: username] to be visible 
+2025-07-01 17:05:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (cd8fb1fa344a88bd21636e1de39a83ff)] -> name: username] to be visible  is successful
+2025-07-01 17:05:29 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] WARN  LoginPage:26 - [ Entering null in UserName field  ] - Attempt 1 : IllegalArgumentException
+2025-07-01 17:05:29 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] ERROR LoginPage:32 - Unrecoverable exception. Aborting: Entering null in UserName field 
+2025-07-01 17:05:29 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:05:29 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:05:29 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning 0 for maxretryCount property
+2025-07-01 17:06:41 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Checking if the test needs to be retried - 2
+2025-07-01 17:06:41 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Retry completed or not needed for admin_add_new_location 
+2025-07-01 17:06:41 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Taking screenshot
+2025-07-01 17:06:57 [main] [] INFO  AllureHelper:20 - Cleared existing allure-results folder
+2025-07-01 17:06:57 [TestNG-tests-1] [] INFO  BaseTest:20 - ************************ Chrome Test Starts ************************
+2025-07-01 17:06:57 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converting test id's to Object array
+2025-07-01 17:06:57 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:06:57 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:06:57 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:06:57 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:06:57 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:06:57 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:06:57 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieving test id for Admin
+2025-07-01 17:06:57 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:06:57 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:06:57 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:06:57 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:06:57 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:06:57 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:06:57 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:06:57 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:06:57 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle themefd26doctype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stylesheet5d8bdoctype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctstylesheet4257type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfonts6623type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfont14d8type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfills2c6ftype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfill550ctype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborders0d66type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborderf935type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellxfs1322type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctxf97f7type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellstylexfsa81ftype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctdxfsb26atype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle cttablestyles872ftype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle sstf81fdoctype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsst44f3type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrsta472type
+2025-07-01 17:06:58 [TestNG-tests-1] [] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle workbookec17doctype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworkbook83c3type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheets49fdtype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheet4dbetype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle strelationshipid1e94type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle worksheetf539doctype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworksheet530dtype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcols627ctype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcola95ftype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheetdata8408type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrowdd39type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcell842btype
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcellrefe4e0type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stxstringf179type
+2025-07-01 17:06:58 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcelltypebf95type
+2025-07-01 17:06:58 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieved test id's  [TC007] for Admin
+2025-07-01 17:06:58 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converted test id's to Object array - [[Ljava.lang.Object;@830ab34 for Admin
+2025-07-01 17:06:58 [TestNG-PoolService-1] [] INFO  BaseTest:20 - ************************ admin_add_new_location Method Starts *************************
+2025-07-01 17:06:58 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opening Chrome Browser
+2025-07-01 17:07:01 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opened Chrome Browser successfully
+2025-07-01 17:07:01 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:07:01 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:07:01 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-07-01 17:07:01 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-07-01 17:07:05 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieving data for TC007
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stcellstylexfid70c7type
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stnumfmtid76fbtype
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle ctworkbookpr03a5type
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieved data {TestID=TC007, Execution=Y, Module=Admin, userName=Admin, password=admin123, name=Testing10, city=Chennai, state=TN, zipcode=600007, address=12, street, country=Malaysia} for TC007
+2025-07-01 17:07:05 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (0adb0d984a08502dcedf0db72de1f8f0)] -> xpath: //img[@alt='company-branding']] to be visible 
+2025-07-01 17:07:06 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (0adb0d984a08502dcedf0db72de1f8f0)] -> xpath: //img[@alt='company-branding']] to be visible  is successful
+2025-07-01 17:07:06 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Entering null in UserName field 
+2025-07-01 17:07:06 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (0adb0d984a08502dcedf0db72de1f8f0)] -> name: username] to be visible 
+2025-07-01 17:07:06 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (0adb0d984a08502dcedf0db72de1f8f0)] -> name: username] to be visible  is successful
+2025-07-01 17:07:06 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] WARN  LoginPage:26 - [ Entering null in UserName field  ] - Attempt 1 : IllegalArgumentException
+2025-07-01 17:07:06 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] ERROR LoginPage:32 - Unrecoverable exception. Aborting: Entering null in UserName field 
+2025-07-01 17:07:06 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:07:06 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:07:06 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning 0 for maxretryCount property
+2025-07-01 17:07:30 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Taking screenshot
+2025-07-01 17:07:30 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Taking screenshot is successful
+2025-07-01 17:07:30 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Quitting driver
+2025-07-01 17:07:31 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Driver closed successfully
+2025-07-01 17:07:31 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  BaseTest:20 - ************************ admin_add_new_location Method Ends ************************
+2025-07-01 17:07:31 [TestNG-tests-1] [] INFO  BaseTest:20 - ************************ Chrome Test Ends ************************
+2025-07-01 17:07:31 [main] [] INFO  AllureHelper:20 - Allure environment.properties generated automatically.
+2025-07-01 17:07:34 [main] [] INFO  AllureHelper:20 - [Allure] Report successfully generated to C:\Users\solomonj\IdeaProjects\SeleniumFramework\target\allure-report\Report_20250701-170731
+2025-07-01 17:07:35 [main] [] INFO  AllureHelper:20 - Allure report generated at: C:\Users\solomonj\IdeaProjects\SeleniumFramework\target\allure-report\Report_20250701-170731
+2025-07-01 17:08:41 [main] [] INFO  AllureHelper:20 - Cleared existing allure-results folder
+2025-07-01 17:08:41 [TestNG-tests-1] [] INFO  BaseTest:20 - ************************ Chrome Test Starts ************************
+2025-07-01 17:08:41 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converting test id's to Object array
+2025-07-01 17:08:41 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:08:41 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:08:41 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:08:41 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:08:41 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:08:41 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:08:41 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieving test id for Admin
+2025-07-01 17:08:42 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:08:42 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:08:42 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle themefd26doctype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stylesheet5d8bdoctype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctstylesheet4257type
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfonts6623type
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfont14d8type
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfills2c6ftype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfill550ctype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborders0d66type
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborderf935type
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellxfs1322type
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctxf97f7type
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellstylexfsa81ftype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctdxfsb26atype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle cttablestyles872ftype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle sstf81fdoctype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsst44f3type
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrsta472type
+2025-07-01 17:08:42 [TestNG-tests-1] [] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle workbookec17doctype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworkbook83c3type
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheets49fdtype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheet4dbetype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle strelationshipid1e94type
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle worksheetf539doctype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworksheet530dtype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcols627ctype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcola95ftype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheetdata8408type
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrowdd39type
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcell842btype
+2025-07-01 17:08:42 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcellrefe4e0type
+2025-07-01 17:08:43 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stxstringf179type
+2025-07-01 17:08:43 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcelltypebf95type
+2025-07-01 17:08:43 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieved test id's  [TC007] for Admin
+2025-07-01 17:08:43 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converted test id's to Object array - [[Ljava.lang.Object;@7a9c68ae for Admin
+2025-07-01 17:08:43 [TestNG-PoolService-1] [] INFO  BaseTest:20 - ************************ admin_add_new_location Method Starts *************************
+2025-07-01 17:08:43 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opening Chrome Browser
+2025-07-01 17:08:46 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opened Chrome Browser successfully
+2025-07-01 17:08:46 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:08:46 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:08:46 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-07-01 17:08:46 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-07-01 17:08:50 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieving data for TC007
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stcellstylexfid70c7type
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stnumfmtid76fbtype
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle ctworkbookpr03a5type
+2025-07-01 17:08:50 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieved data {TestID=TC007, Execution=Y, Module=Admin, userName=Admin, password=admin123, name=Testing10, city=Chennai, state=TN, zipcode=600007, address=12, street, country=Malaysia} for TC007
+2025-07-01 17:08:51 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (7943404f635b7b43dae815b7b81c2f5f)] -> xpath: //img[@alt='company-branding']] to be visible 
+2025-07-01 17:08:51 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (7943404f635b7b43dae815b7b81c2f5f)] -> xpath: //img[@alt='company-branding']] to be visible  is successful
+2025-07-01 17:08:51 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Entering null in UserName field 
+2025-07-01 17:08:51 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (7943404f635b7b43dae815b7b81c2f5f)] -> name: username] to be visible 
+2025-07-01 17:08:51 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (7943404f635b7b43dae815b7b81c2f5f)] -> name: username] to be visible  is successful
+2025-07-01 17:08:51 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] WARN  LoginPage:26 - [ Entering null in UserName field  ] - Attempt 1 : IllegalArgumentException
+2025-07-01 17:08:51 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] ERROR LoginPage:32 - Unrecoverable exception. Aborting: Entering null in UserName field 
+2025-07-01 17:08:51 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:08:51 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:08:51 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning 2 for maxretryCount property
+2025-07-01 17:09:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Checking if the test needs to be retried - 2
+2025-07-01 17:09:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Retrying admin_add_new_location 1 time
+2025-07-01 17:09:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Quitting driver
+2025-07-01 17:09:37 [main] [] INFO  AllureHelper:20 - Cleared existing allure-results folder
+2025-07-01 17:09:37 [TestNG-tests-1] [] INFO  BaseTest:20 - ************************ Chrome Test Starts ************************
+2025-07-01 17:09:37 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converting test id's to Object array
+2025-07-01 17:09:37 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:09:37 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:09:37 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:09:37 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:09:37 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:09:37 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:09:37 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieving test id for Admin
+2025-07-01 17:09:37 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:09:37 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:09:37 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle themefd26doctype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stylesheet5d8bdoctype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctstylesheet4257type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfonts6623type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfont14d8type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfills2c6ftype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfill550ctype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborders0d66type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborderf935type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellxfs1322type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctxf97f7type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellstylexfsa81ftype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctdxfsb26atype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle cttablestyles872ftype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle sstf81fdoctype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsst44f3type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrsta472type
+2025-07-01 17:09:38 [TestNG-tests-1] [] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle workbookec17doctype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworkbook83c3type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheets49fdtype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheet4dbetype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle strelationshipid1e94type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle worksheetf539doctype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworksheet530dtype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcols627ctype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcola95ftype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheetdata8408type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrowdd39type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcell842btype
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcellrefe4e0type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stxstringf179type
+2025-07-01 17:09:38 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcelltypebf95type
+2025-07-01 17:09:38 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieved test id's  [TC007] for Admin
+2025-07-01 17:09:38 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converted test id's to Object array - [[Ljava.lang.Object;@2450efc7 for Admin
+2025-07-01 17:09:38 [TestNG-PoolService-1] [] INFO  BaseTest:20 - ************************ admin_add_new_location Method Starts *************************
+2025-07-01 17:09:38 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opening Chrome Browser
+2025-07-01 17:09:41 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opened Chrome Browser successfully
+2025-07-01 17:09:42 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:09:42 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:09:42 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-07-01 17:09:42 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-07-01 17:09:45 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieving data for TC007
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stcellstylexfid70c7type
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stnumfmtid76fbtype
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle ctworkbookpr03a5type
+2025-07-01 17:09:45 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieved data {TestID=TC007, Execution=Y, Module=Admin, userName=Admin, password=admin123, name=Testing10, city=Chennai, state=TN, zipcode=600007, address=12, street, country=Malaysia} for TC007
+2025-07-01 17:09:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (7c95aaa6152f76d757384c7d515381ce)] -> xpath: //img[@alt='company-branding']] to be visible 
+2025-07-01 17:09:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (7c95aaa6152f76d757384c7d515381ce)] -> xpath: //img[@alt='company-branding']] to be visible  is successful
+2025-07-01 17:09:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Entering null in UserName field 
+2025-07-01 17:09:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (7c95aaa6152f76d757384c7d515381ce)] -> name: username] to be visible 
+2025-07-01 17:09:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (7c95aaa6152f76d757384c7d515381ce)] -> name: username] to be visible  is successful
+2025-07-01 17:09:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] WARN  LoginPage:26 - [ Entering null in UserName field  ] - Attempt 1 : IllegalArgumentException
+2025-07-01 17:09:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] ERROR LoginPage:32 - Unrecoverable exception. Aborting: Entering null in UserName field 
+2025-07-01 17:09:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:09:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:09:46 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning 2 for maxretryCount property
+2025-07-01 17:10:31 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Quitting driver
+2025-07-01 17:10:32 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Driver closed successfully
+2025-07-01 17:10:32 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  BaseTest:20 - ************************ admin_add_new_location Method Ends ************************
+2025-07-01 17:10:32 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  BaseTest:20 - ************************ admin_add_new_location Method Starts *************************
+2025-07-01 17:10:32 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Opening Chrome Browser
+2025-07-01 17:10:35 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Opened Chrome Browser successfully
+2025-07-01 17:10:35 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:10:35 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:10:35 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-07-01 17:10:35 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieving data for TC007
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:10:36 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieved data {TestID=TC007, Execution=Y, Module=Admin, userName=Admin, password=admin123, name=Testing10, city=Chennai, state=TN, zipcode=600007, address=12, street, country=Malaysia} for TC007
+2025-07-01 17:10:49 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Quitting driver
+2025-07-01 17:11:02 [main] [] INFO  AllureHelper:20 - Cleared existing allure-results folder
+2025-07-01 17:11:02 [TestNG-tests-1] [] INFO  BaseTest:20 - ************************ Chrome Test Starts ************************
+2025-07-01 17:11:02 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converting test id's to Object array
+2025-07-01 17:11:02 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:11:02 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:11:02 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:11:02 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:11:02 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:11:02 [TestNG-tests-1] [] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:11:02 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieving test id for Admin
+2025-07-01 17:11:03 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:11:03 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:11:03 [TestNG-tests-1] [] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:199 - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:237 - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:209 - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle themefd26doctype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stylesheet5d8bdoctype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctstylesheet4257type
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfonts6623type
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfont14d8type
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfills2c6ftype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctfill550ctype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborders0d66type
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctborderf935type
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellxfs1322type
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctxf97f7type
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcellstylexfsa81ftype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctdxfsb26atype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle cttablestyles872ftype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle sstf81fdoctype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsst44f3type
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrsta472type
+2025-07-01 17:11:03 [TestNG-tests-1] [] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle workbookec17doctype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworkbook83c3type
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheets49fdtype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheet4dbetype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle strelationshipid1e94type
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle worksheetf539doctype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctworksheet530dtype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcols627ctype
+2025-07-01 17:11:03 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcola95ftype
+2025-07-01 17:11:04 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctsheetdata8408type
+2025-07-01 17:11:04 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctrowdd39type
+2025-07-01 17:11:04 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle ctcell842btype
+2025-07-01 17:11:04 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcellrefe4e0type
+2025-07-01 17:11:04 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stxstringf179type
+2025-07-01 17:11:04 [TestNG-tests-1] [] TRACE XBeanDebug:946 - Resolving type for handle stcelltypebf95type
+2025-07-01 17:11:04 [TestNG-tests-1] [] INFO  ExcelUtils:20 - Retrieved test id's  [TC007] for Admin
+2025-07-01 17:11:04 [TestNG-tests-1] [] INFO  ExcelDataProvider:20 - Converted test id's to Object array - [[Ljava.lang.Object;@2459766 for Admin
+2025-07-01 17:11:04 [TestNG-PoolService-1] [] INFO  BaseTest:20 - ************************ admin_add_new_location Method Starts *************************
+2025-07-01 17:11:04 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opening Chrome Browser
+2025-07-01 17:11:07 [TestNG-PoolService-1] [] INFO  DriverFactory:20 - Opened Chrome Browser successfully
+2025-07-01 17:11:07 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:11:07 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:11:07 [TestNG-PoolService-1] [] INFO  PropertiesReader:20 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-07-01 17:11:07 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-07-01 17:11:10 [TestNG-PoolService-1] [] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieving data for TC007
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stcellstylexfid70c7type
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle stnumfmtid76fbtype
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] TRACE XBeanDebug:946 - Resolving type for handle ctworkbookpr03a5type
+2025-07-01 17:11:10 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieved data {TestID=TC007, Execution=Y, Module=Admin, userName=Admin, password=admin123, name=Testing10, city=Chennai, state=TN, zipcode=600007, address=12, street, country=Malaysia} for TC007
+2025-07-01 17:11:11 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-07-01 17:11:12 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-07-01 17:11:12 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Entering null in UserName field 
+2025-07-01 17:11:12 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (53215638c93b5b794f982d61fbeee94c)] -> name: username] to be visible 
+2025-07-01 17:11:12 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (53215638c93b5b794f982d61fbeee94c)] -> name: username] to be visible  is successful
+2025-07-01 17:11:12 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] WARN  LoginPage:26 - [ Entering null in UserName field  ] - Attempt 1 : IllegalArgumentException
+2025-07-01 17:11:12 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] ERROR LoginPage:32 - Unrecoverable exception. Aborting: Entering null in UserName field 
+2025-07-01 17:11:12 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:11:12 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:11:12 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning 2 for maxretryCount property
+2025-07-01 17:11:12 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Checking if the test needs to be retried - 2
+2025-07-01 17:11:12 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Retrying admin_add_new_location 1 time
+2025-07-01 17:11:12 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Quitting driver
+2025-07-01 17:11:14 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Driver closed successfully
+2025-07-01 17:11:14 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  BaseTest:20 - ************************ admin_add_new_location Method Ends ************************
+2025-07-01 17:11:14 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  BaseTest:20 - ************************ admin_add_new_location Method Starts *************************
+2025-07-01 17:11:14 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Opening Chrome Browser
+2025-07-01 17:11:17 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Opened Chrome Browser successfully
+2025-07-01 17:11:17 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:11:17 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:11:17 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-07-01 17:11:17 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieving data for TC007
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieved data {TestID=TC007, Execution=Y, Module=Admin, userName=Admin, password=admin123, name=Testing10, city=Chennai, state=TN, zipcode=600007, address=12, street, country=Malaysia} for TC007
+2025-07-01 17:11:20 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Entering null in UserName field 
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (7f5f298f4d7acdb459b663aaf885bfe7)] -> name: username] to be visible 
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (7f5f298f4d7acdb459b663aaf885bfe7)] -> name: username] to be visible  is successful
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] WARN  LoginPage:26 - [ Entering null in UserName field  ] - Attempt 1 : IllegalArgumentException
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] ERROR LoginPage:32 - Unrecoverable exception. Aborting: Entering null in UserName field 
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Checking if the test needs to be retried - 2
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Retrying admin_add_new_location 2 time
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Quitting driver
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Driver closed successfully
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  BaseTest:20 - ************************ admin_add_new_location Method Ends ************************
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  BaseTest:20 - ************************ admin_add_new_location Method Starts *************************
+2025-07-01 17:11:21 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Opening Chrome Browser
+2025-07-01 17:11:24 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Opened Chrome Browser successfully
+2025-07-01 17:11:24 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:11:24 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:11:24 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning https://opensource-demo.orangehrmlive.com/web/index.php/auth/login for url property
+2025-07-01 17:11:24 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login 
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Opening url - https://opensource-demo.orangehrmlive.com/web/index.php/auth/login  is successful
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning src/test/resources/testdata/testdata.xlsx for dataPath property
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  PropertiesReader:20 - Returning data for sheetName property
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieving data for TC007
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  ExcelUtils:20 - Retrieved data {TestID=TC007, Execution=Y, Module=Admin, userName=Admin, password=admin123, name=Testing10, city=Chennai, state=TN, zipcode=600007, address=12, street, country=Malaysia} for TC007
+2025-07-01 17:11:27 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible 
+2025-07-01 17:11:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for Proxy element for: DefaultElementLocator 'By.xpath: //img[@alt='company-branding']' to be visible  is successful
+2025-07-01 17:11:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Entering null in UserName field 
+2025-07-01 17:11:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (de09c62e2009d240a9214634e596e73c)] -> name: username] to be visible 
+2025-07-01 17:11:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  LoginPage:20 - Wait for [[ChromeDriver: chrome on windows (de09c62e2009d240a9214634e596e73c)] -> name: username] to be visible  is successful
+2025-07-01 17:11:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] WARN  LoginPage:26 - [ Entering null in UserName field  ] - Attempt 1 : IllegalArgumentException
+2025-07-01 17:11:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] ERROR LoginPage:32 - Unrecoverable exception. Aborting: Entering null in UserName field 
+2025-07-01 17:11:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Checking if the test needs to be retried - 2
+2025-07-01 17:11:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  RetryAnalyzer:20 - Retry completed or not needed for admin_add_new_location 
+2025-07-01 17:11:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Taking screenshot
+2025-07-01 17:11:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  TestExample:20 - Taking screenshot is successful
+2025-07-01 17:11:28 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Quitting driver
+2025-07-01 17:11:29 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  DriverFactory:20 - Driver closed successfully
+2025-07-01 17:11:29 [TestNG-PoolService-1] [tests.TestExample.admin_add_new_location] INFO  BaseTest:20 - ************************ admin_add_new_location Method Ends ************************
+2025-07-01 17:11:29 [TestNG-tests-1] [] INFO  BaseTest:20 - ************************ Chrome Test Ends ************************
+2025-07-01 17:11:29 [main] [] INFO  AllureHelper:20 - Allure environment.properties generated automatically.
+2025-07-01 17:11:32 [main] [] INFO  AllureHelper:20 - [Allure] Report successfully generated to C:\Users\solomonj\IdeaProjects\SeleniumFramework\target\allure-report\Report_20250701-171129
+2025-07-01 17:11:32 [main] [] INFO  AllureHelper:20 - Allure report generated at: C:\Users\solomonj\IdeaProjects\SeleniumFramework\target\allure-report\Report_20250701-171129
+2025-07-10 13:11:33 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 13:11:33 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 13:11:33 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 13:11:35 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 13:11:35 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 13:11:35 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 13:11:36 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 13:16:05 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 13:16:05 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 13:16:05 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 13:16:07 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 13:16:07 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 13:16:07 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 13:16:08 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 13:24:43 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 13:24:43 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 13:24:43 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 13:24:45 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 13:24:45 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 13:24:45 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 13:24:45 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 15:44:16 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 15:44:16 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 15:44:16 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 15:44:18 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 15:44:18 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 15:44:18 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 15:44:19 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 15:45:41 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 15:45:42 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 15:45:42 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 15:45:44 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 15:45:44 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 15:45:44 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 15:45:45 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 15:47:02 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 15:47:02 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 15:47:02 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 15:47:04 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 15:47:04 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 15:47:04 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 15:47:05 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 15:47:12 [main] [] ERROR NoteTests:32 - Failed to convert Json to Map Unrecognized token 'io': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"io.restassured.internal.RestAssuredResponseImpl@45accb5"; line: 1, column: 3] 
+2025-07-10 15:48:13 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 15:48:13 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 15:48:13 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 15:48:15 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 15:48:15 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 15:48:15 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 15:48:16 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 15:48:22 [main] [] ERROR NoteTests:32 - Failed to convert Json to Map Unrecognized token 'io': was expecting (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"io.restassured.internal.RestAssuredResponseImpl@492d0748"; line: 1, column: 3] 
+2025-07-10 15:49:29 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 15:49:30 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 15:49:30 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 15:49:32 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 15:49:32 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 15:49:32 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 15:49:33 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 15:49:39 [main] [] INFO  NoteTests:20 - Returning {success=true, status=200, message=Note successfully created, data={id=686f93bb9d1b4b0288650f0f, title=Client Note, description=This is from NoteClient, category=Home, completed=false, created_at=2025-07-10T10:19:39.488Z, updated_at=2025-07-10T10:19:39.488Z, user_id=686f6f5c9d1b4b02886503f3}} from json to map
+2025-07-10 15:54:06 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 15:54:06 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 15:54:06 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 15:54:08 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 15:54:08 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 15:54:08 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 15:54:09 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 15:54:16 [main] [] INFO  NoteTests:20 - Returning {success=true, status=200, message=Note successfully created, data={id=686f94cf9d1b4b0288650f50, title=Client Note, description=This is from NoteClient, category=Home, completed=false, created_at=2025-07-10T10:24:15.860Z, updated_at=2025-07-10T10:24:15.860Z, user_id=686f6f5c9d1b4b02886503f3}} from json to map
+2025-07-10 16:05:57 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 16:05:57 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 16:05:57 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 16:05:59 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 16:05:59 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 16:05:59 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 16:06:00 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 16:06:07 [main] [] INFO  AssertionUtils:20 - Verifying: Status
+2025-07-10 16:06:07 [main] [] INFO  AssertionUtils:20 - Assertion passed: Status | Expected: 200 | Actual: 200
+2025-07-10 16:06:07 [main] [] INFO  AssertionUtils:20 - Verifying: Message
+2025-07-10 16:06:07 [main] [] INFO  AssertionUtils:20 - Assertion passed: Message | Expected: Note successfully created | Actual: Note successfully created
+2025-07-10 16:06:07 [main] [] INFO  AssertionUtils:20 - Verifying: Title
+2025-07-10 16:06:07 [main] [] INFO  AssertionUtils:20 - Assertion passed: Title | Expected: Client Note | Actual: Client Note
+2025-07-10 16:20:42 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 16:20:42 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 16:20:42 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 16:20:44 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 16:20:44 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 16:20:44 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 16:20:45 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 16:20:52 [main] [] INFO  NoteTests:20 - Converting response JSON to class: NoteResponse
+2025-07-10 16:20:52 [main] [] INFO  NoteTests:20 - Successfully converted JSON to NoteResponse
+2025-07-10 16:20:52 [main] [] INFO  AssertionUtils:20 - Verifying: Status
+2025-07-10 16:20:52 [main] [] INFO  AssertionUtils:20 - Assertion passed: Status | Expected: 200 | Actual: 200
+2025-07-10 16:20:52 [main] [] INFO  AssertionUtils:20 - Verifying: Message
+2025-07-10 16:20:52 [main] [] INFO  AssertionUtils:20 - Assertion passed: Message | Expected: Note successfully created | Actual: Note successfully created
+2025-07-10 16:20:52 [main] [] INFO  AssertionUtils:20 - Verifying: Title
+2025-07-10 16:20:52 [main] [] INFO  AssertionUtils:20 - Assertion passed: Title | Expected: Client Note | Actual: Client Note
+2025-07-10 16:55:28 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 16:55:28 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 16:55:28 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 16:55:30 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 16:55:30 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 16:55:30 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 16:55:31 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 16:55:37 [main] [] INFO  NoteService:20 - Converting response JSON to class: NoteResponse
+2025-07-10 16:55:37 [main] [] INFO  NoteService:20 - Successfully converted JSON to NoteResponse
+2025-07-10 16:55:37 [main] [] INFO  AssertionUtils:20 - Verifying: Status
+2025-07-10 16:55:37 [main] [] INFO  AssertionUtils:20 - Assertion passed: Status | Expected: 200 | Actual: 200
+2025-07-10 16:55:37 [main] [] INFO  AssertionUtils:20 - Verifying: Message
+2025-07-10 16:55:37 [main] [] INFO  AssertionUtils:20 - Assertion passed: Message | Expected: Note successfully created | Actual: Note successfully created
+2025-07-10 16:55:37 [main] [] INFO  AssertionUtils:20 - Verifying: Title
+2025-07-10 16:55:37 [main] [] INFO  AssertionUtils:20 - Assertion passed: Title | Expected: Client Note | Actual: Client Note
+2025-07-10 19:33:12 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 19:33:12 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 19:33:12 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 19:33:15 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 19:33:15 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 19:33:15 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 19:33:16 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 19:33:23 [main] [] INFO  NoteService:20 - Converting response JSON to class: NoteResponse
+2025-07-10 19:33:24 [main] [] ERROR NoteService:32 - Failed to convert JSON to NoteResponse com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `api.dto.NoteResponse` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (String)"{"success":true,"status":200,"message":"Note successfully created","data":{"id":"686fc82b9d1b4b0288651468","title":"Client Note","description":"This is from NoteClient","category":"Home","completed":false,"created_at":"2025-07-10T14:03:23.461Z","updated_at":"2025-07-10T14:03:23.461Z","user_id":"686f6f5c9d1b4b02886503f3"}}"; line: 1, column: 2]
+2025-07-10 19:37:49 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 19:37:49 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 19:37:49 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 19:37:51 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 19:37:51 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 19:37:51 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 19:37:52 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 19:37:59 [main] [] INFO  NoteService:20 - Converting response JSON to class: NoteResponse
+2025-07-10 19:37:59 [main] [] ERROR NoteService:32 - Failed to convert JSON to NoteResponse com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `api.dto.NoteResponse` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (String)"{"success":true,"status":200,"message":"Note successfully created","data":{"id":"686fc93f9d1b4b0288651473","title":"Client Note","description":"This is from NoteClient","category":"Home","completed":false,"created_at":"2025-07-10T14:07:59.448Z","updated_at":"2025-07-10T14:07:59.448Z","user_id":"686f6f5c9d1b4b02886503f3"}}"; line: 1, column: 2]
+2025-07-10 19:42:35 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 19:42:35 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 19:42:35 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 19:42:38 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 19:42:38 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 19:42:38 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 19:42:38 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 19:42:46 [main] [] INFO  NoteService:20 - Converting response JSON to class: NoteResponse
+2025-07-10 19:42:46 [main] [] ERROR NoteService:32 - Failed to convert JSON to NoteResponse com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Cannot construct instance of `api.dto.NoteData` (no Creators, like default constructor, exist): cannot deserialize from Object value (no delegate- or property-based Creator)
+ at [Source: (String)"{"success":true,"status":200,"message":"Note successfully created","data":{"id":"686fca5e9d1b4b028865147b","title":"Client Note","description":"This is from NoteClient","category":"Home","completed":false,"created_at":"2025-07-10T14:12:46.027Z","updated_at":"2025-07-10T14:12:46.027Z","user_id":"686f6f5c9d1b4b02886503f3"}}"; line: 1, column: 76] (through reference chain: api.dto.NoteResponse["data"])
+2025-07-10 19:44:02 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 19:44:02 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 19:44:02 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 19:44:04 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-10 19:44:04 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-10 19:44:04 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-10 19:44:05 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-10 19:44:13 [main] [] INFO  NoteService:20 - Converting response JSON to class: NoteResponse
+2025-07-10 19:44:13 [main] [] INFO  NoteService:20 - Successfully converted JSON to NoteResponse
+2025-07-10 19:44:13 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at status
+2025-07-10 19:44:13 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at status
+2025-07-10 19:44:13 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at message
+2025-07-10 19:44:13 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at message
+2025-07-10 19:44:13 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at data.title
+2025-07-10 19:44:13 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at data.title
+2025-07-10 19:44:13 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.

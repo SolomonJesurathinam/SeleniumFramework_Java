@@ -1,44 +1,31 @@
 package api.tests;
 
-import api.clients.AuthenticationClient;
-import api.clients.NoteClient;
 import api.dto.Note;
-import api.utils.RestAssuredConfiguration;
-import config.PropertiesReader;
-import io.restassured.response.Response;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
+import api.dto.NoteData;
+import api.dto.NoteResponse;
+import api.service.NoteService;
+import base.BaseAPI;
 import org.testng.annotations.Test;
 
-public class NoteTests {
+public class NoteTests extends BaseAPI {
 
-    NoteClient noteClient = new NoteClient();
-    String token;
-
-    @BeforeSuite
-    public void setupSuite() {
-        PropertiesReader propertiesReader = new PropertiesReader();
-        String baseUrl = propertiesReader.getProperty("baseUrl");
-        RestAssuredConfiguration.setup(baseUrl);
-    }
-
-    @BeforeClass
-    public void setup() {
-        token = AuthenticationClient.getToken();
-    }
+    NoteService noteService = new NoteService();
 
     @Test()
-    public void testCreateNoteUsingClient() {
+    public void createNewNote() {
         Note note = Note.builder()
                 .setTitle("Client Note")
                 .setDescription("This is from NoteClient")
                 .setCategory("Home")
                 .build();
 
-        Response response = noteClient.createNote(note,token);
-        response.then()
-                .statusCode(200);
-        assertThat
+        NoteResponse noteResponse = NoteResponse.builder()
+                .setStatus(200)
+                .setMessage("Note successfully created")
+                .setData(NoteData.builder().setTitle("Client Note").build())
+                .build();
+
+        noteService.createNote_andAssert(note, token, noteResponse);
     }
 
 

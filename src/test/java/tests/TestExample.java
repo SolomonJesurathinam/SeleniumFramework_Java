@@ -54,7 +54,7 @@ public class TestExample extends BaseTest {
 
         LoginPage loginPage = new LoginPage();
         loginPage.verify_page_is_loaded()
-                .login_to_application(data.get("userName"), data.get("password"));
+                .login_to_application(data.get("userName1"), data.get("password"));
 
         DashboardPage dashboardPage = new DashboardPage();
         dashboardPage.verify_page_is_loaded()
