@@ -13328,3 +13328,165 @@
 2025-07-10 19:44:13 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at data.title
 2025-07-10 19:44:13 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at data.title
 2025-07-10 19:44:13 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-14 12:20:08 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 12:20:08 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 12:20:08 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 12:20:10 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 12:20:10 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 12:20:10 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 12:20:10 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 15:00:58 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 15:00:58 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 15:00:58 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 15:00:59 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 15:00:59 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 15:00:59 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 15:01:00 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 15:02:45 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 15:02:45 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 15:02:45 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 15:02:46 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 15:02:46 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 15:02:46 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 15:02:47 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 15:02:51 [main] [] INFO  NoteService:20 - Converting response JSON to class: NoteResponse
+2025-07-14 15:02:51 [main] [] INFO  NoteService:20 - Successfully converted JSON to NoteResponse
+2025-07-14 15:02:51 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at success
+2025-07-14 15:02:51 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at success
+2025-07-14 15:02:51 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at status
+2025-07-14 15:02:51 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at status
+2025-07-14 15:02:51 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at message
+2025-07-14 15:02:51 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at message
+2025-07-14 15:02:51 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at data.title
+2025-07-14 15:02:51 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at data.title
+2025-07-14 15:02:51 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-14 17:05:39 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:05:39 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:05:39 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:05:40 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:05:40 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:05:40 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:05:41 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 17:05:45 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-14 17:05:45 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-14 17:05:45 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at success
+2025-07-14 17:05:45 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at success
+2025-07-14 17:05:45 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at status
+2025-07-14 17:05:45 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at status
+2025-07-14 17:05:45 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at message
+2025-07-14 17:05:45 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at message
+2025-07-14 17:05:45 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at data
+2025-07-14 17:05:45 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at data
+2025-07-14 17:05:45 [main] [] ERROR AssertionUtils:32 - Some assertions failed. java.lang.AssertionError: The following asserts failed:
+	Mismatch at data expected [NoteData(id=null, title=Client Note, description=null, category=null, completed=false, created_at=null, updated_at=null, user_id=null)] but found [NoteData(id=6874eb909d1b4b0288657048, title=Client Note, description=This is from NoteClient, category=Home, completed=false, created_at=2025-07-14T11:35:44.936Z, updated_at=2025-07-14T11:35:44.936Z, user_id=686f6f5c9d1b4b02886503f3)]
+2025-07-14 17:11:01 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:11:01 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:11:01 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:11:03 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:11:03 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:11:03 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:11:03 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 17:11:22 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-14 17:11:22 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-14 17:11:22 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at success
+2025-07-14 17:11:22 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at success
+2025-07-14 17:11:22 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at status
+2025-07-14 17:11:22 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at status
+2025-07-14 17:11:22 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at message
+2025-07-14 17:11:22 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at message
+2025-07-14 17:11:22 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at data
+2025-07-14 17:11:22 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at data
+2025-07-14 17:11:22 [main] [] ERROR AssertionUtils:32 - Some assertions failed. java.lang.AssertionError: The following asserts failed:
+	Mismatch at data expected [NoteData(id=null, title=Client Note, description=null, category=null, completed=false, created_at=null, updated_at=null, user_id=null)] but found [NoteData(id=6874ece19d1b4b028865705b, title=Client Note, description=This is from NoteClient, category=Home, completed=false, created_at=2025-07-14T11:41:21.777Z, updated_at=2025-07-14T11:41:21.777Z, user_id=686f6f5c9d1b4b02886503f3)]
+2025-07-14 17:14:20 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:14:20 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:14:20 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:14:21 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:14:21 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:14:21 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:14:21 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 17:14:25 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-14 17:14:25 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-14 17:14:25 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at success
+2025-07-14 17:14:25 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at success
+2025-07-14 17:14:25 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at status
+2025-07-14 17:14:25 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at status
+2025-07-14 17:14:25 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at message
+2025-07-14 17:14:25 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at message
+2025-07-14 17:14:25 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at data
+2025-07-14 17:14:25 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at data
+2025-07-14 17:14:25 [main] [] ERROR AssertionUtils:32 - Some assertions failed. java.lang.AssertionError: The following asserts failed:
+	Mismatch at data expected [NoteData(id=null, title=Client Note, description=null, category=null, completed=false, created_at=null, updated_at=null, user_id=null)] but found [NoteData(id=6874ed999d1b4b0288657065, title=Client Note, description=This is from NoteClient, category=Home, completed=false, created_at=2025-07-14T11:44:25.589Z, updated_at=2025-07-14T11:44:25.589Z, user_id=686f6f5c9d1b4b02886503f3)]
+2025-07-14 17:22:39 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:22:39 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:22:39 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:22:40 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:22:40 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:22:40 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:22:41 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 17:24:04 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-14 17:24:05 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-14 17:25:40 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at success
+2025-07-14 17:25:40 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at success
+2025-07-14 17:26:10 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at status
+2025-07-14 17:26:10 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at status
+2025-07-14 17:26:26 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at message
+2025-07-14 17:26:26 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at message
+2025-07-14 17:31:53 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at data
+2025-07-14 17:31:53 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at data
+2025-07-14 17:31:53 [main] [] ERROR AssertionUtils:32 - Some assertions failed. java.lang.AssertionError: The following asserts failed:
+	Mismatch at data expected [NoteData(id=null, title=Client Note, description=null, category=null, completed=false, created_at=null, updated_at=null, user_id=null)] but found [NoteData(id=6874efdb9d1b4b028865709f, title=Client Note, description=This is from NoteClient, category=Home, completed=false, created_at=2025-07-14T11:54:03.754Z, updated_at=2025-07-14T11:54:03.754Z, user_id=686f6f5c9d1b4b02886503f3)]
+2025-07-14 17:32:08 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:32:08 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:32:08 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:32:10 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:32:10 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:32:10 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:32:10 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 17:32:18 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-14 17:32:18 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-14 17:32:52 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at success
+2025-07-14 17:32:52 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at success
+2025-07-14 17:33:01 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at status
+2025-07-14 17:33:01 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at status
+2025-07-14 17:33:07 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at message
+2025-07-14 17:33:07 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at message
+2025-07-14 17:33:19 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at data.title
+2025-07-14 17:33:19 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at data.title
+2025-07-14 17:33:19 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-14 17:35:17 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:35:17 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:35:17 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:35:18 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:35:18 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:35:18 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:35:19 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 17:35:23 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-14 17:35:23 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-14 17:35:23 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at success
+2025-07-14 17:35:23 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at success
+2025-07-14 17:35:23 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at status
+2025-07-14 17:35:23 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at status
+2025-07-14 17:35:23 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at message
+2025-07-14 17:35:23 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at message
+2025-07-14 17:35:23 [main] [] INFO  AssertionUtils:20 - Checking condition: Mismatch at data.title
+2025-07-14 17:35:23 [main] [] INFO  AssertionUtils:20 - Condition passed: Mismatch at data.title
+2025-07-14 17:35:23 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-14 17:37:07 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:37:07 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:37:07 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:37:08 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:37:08 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:37:08 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:37:08 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 17:37:13 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-14 17:37:13 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-14 17:37:13 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-14 17:37:13 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-14 17:37:13 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-14 17:37:13 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-14 17:37:13 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-14 17:37:13 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-14 17:37:13 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
+2025-07-14 17:37:13 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
+2025-07-14 17:37:13 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.

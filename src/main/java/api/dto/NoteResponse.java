@@ -9,9 +9,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder(setterPrefix = "set")
-public class NoteResponse {
+public class NoteResponse<T> {
     private boolean success;
     private int status;
     private String message;
-    private NoteData data;
+    private T data;
 }

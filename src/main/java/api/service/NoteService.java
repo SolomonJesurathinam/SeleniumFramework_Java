@@ -3,8 +3,10 @@ package api.service;
 import api.clients.AuthenticationClient;
 import api.clients.NoteClient;
 import api.dto.Note;
+import api.dto.NoteData;
 import api.dto.NoteResponse;
 import api.utils.ApiUtils;
+import com.fasterxml.jackson.core.type.TypeReference;
 import io.restassured.response.Response;
 import utils.AssertionUtils;
 
@@ -18,8 +20,10 @@ public class NoteService {
                 AuthenticationClient::getToken );
     }
 
-    public void createNote_andAssert(Note note, String token, NoteResponse expNoteRes){
-        NoteResponse noteResponse = apiUtils.responseToClass(createNote(note,token),NoteResponse.class);
+    public void createNote_andAssert(Note note, String token, NoteResponse<NoteData> expNoteRes){
+        NoteResponse<NoteData> noteResponse = apiUtils.responseToClass(createNote(note,token), new TypeReference<>() {
+        });
+        System.out.println(noteResponse.toString());
         AssertionUtils.assertMatchingNonNullFieldsSoft(noteResponse,expNoteRes);
     }
 

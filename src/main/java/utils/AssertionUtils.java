@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 import java.lang.reflect.Field;
+import java.util.List;
 
 public class AssertionUtils {
 
@@ -64,11 +65,28 @@ public class AssertionUtils {
 
     private static void assertMatchingNonNullFieldsSoft(Object actual, Object expected, String parentField, SoftAssert softAssert) {
         if (actual == null || expected == null) {
-            logAndAssertEquals(softAssert, actual, expected, "Mismatch at " + parentField);
+            logAndAssertEquals(softAssert, actual, expected, parentField);
             return;
         }
 
         Class<?> clazz = expected.getClass();
+
+        // Handle lists (or collections) explicitly
+        if (expected instanceof List<?> expectedList && actual instanceof List<?> actualList) {
+            int size = expectedList.size();
+            if (actualList.size() < size) {
+                logAndAssertEquals(softAssert, actualList.size(), size, "List size at "+parentField);
+                return; // no point checking elements if size is less
+            }
+            for (int i = 0; i < size; i++) {
+                Object expElem = expectedList.get(i);
+                Object actElem = actualList.get(i);
+                String indexedField = parentField + "[" + i + "]";
+                assertMatchingNonNullFieldsSoft(actElem, expElem, indexedField, softAssert);
+            }
+            return; // done comparing list elements
+        }
+
         for (Field field : clazz.getDeclaredFields()) {
             field.setAccessible(true);
             try {
@@ -81,10 +99,16 @@ public class AssertionUtils {
                     continue; // skip fields not set in expected
                 }
 
-                if (isCustomClass(field.getType())) {
+//                if (isCustomClass(field.getType())) {
+//                    assertMatchingNonNullFieldsSoft(actValue, expValue, fieldName, softAssert);
+//                } else {
+//                    logAndAssertEquals(softAssert, actValue, expValue, "Mismatch at " + fieldName);
+//                }
+
+                if (actValue != null && isCustomClass(actValue.getClass())) {
                     assertMatchingNonNullFieldsSoft(actValue, expValue, fieldName, softAssert);
                 } else {
-                    logAndAssertEquals(softAssert, actValue, expValue, "Mismatch at " + fieldName);
+                    logAndAssertEquals(softAssert, actValue, expValue, fieldName);
                 }
             } catch (IllegalAccessException e) {
                 throw new RuntimeException("Unable to access field: " + field.getName(), e);
@@ -93,15 +117,24 @@ public class AssertionUtils {
     }
 
     private static boolean isDefaultValue(Class<?> type, Object value) {
-        if (type.isPrimitive()) {
-            if (type == boolean.class) return Boolean.FALSE.equals(value);
-            if (type == int.class) return ((int) value) == 0;
-            if (type == long.class) return ((long) value) == 0L;
-            if (type == double.class) return ((double) value) == 0.0;
-            // add others as needed
+        if (value == null) return true;
+
+        if (type == boolean.class || type == Boolean.class) {
+            return !(Boolean) value;
+        } else if (type == int.class || type == Integer.class) {
+            return (Integer) value == 0;
+        } else if (type == long.class || type == Long.class) {
+            return (Long) value == 0L;
+        } else if (type == double.class || type == Double.class) {
+            return (Double) value == 0.0;
+        } else if (type == float.class || type == Float.class) {
+            return (Float) value == 0f;
+        } else if (type == String.class) {
+            return ((String) value).isEmpty();
         }
         return false;
     }
+
 
     private static boolean isCustomClass(Class<?> type) {
         return !(type.isPrimitive() || type.getName().startsWith("java.") || type.isEnum());

@@ -19,11 +19,14 @@ public class NoteTests extends BaseAPI {
                 .setCategory("Home")
                 .build();
 
-        NoteResponse noteResponse = NoteResponse.builder()
+        NoteResponse<NoteData> noteResponse = NoteResponse.<NoteData>builder()
                 .setStatus(200)
                 .setMessage("Note successfully created")
+                .setSuccess(true)
                 .setData(NoteData.builder().setTitle("Client Note").build())
                 .build();
+
+        System.out.println(noteResponse.toString());
 
         noteService.createNote_andAssert(note, token, noteResponse);
     }

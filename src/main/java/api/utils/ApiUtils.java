@@ -56,6 +56,19 @@ public class ApiUtils {
         }
     }
 
+    public <T> T responseToClass(Response response, TypeReference<T> typeRef) {
+        try {
+            logger.info("Converting response JSON to generic type");
+            ObjectMapper objectMapper = new ObjectMapper();
+            T obj = objectMapper.readValue(response.asString(), typeRef);
+            logger.info("Successfully converted JSON to generic type");
+            return obj;
+        } catch (JsonProcessingException e) {
+            logger.error(String.format("Failed to convert JSON to generic type: " + e.getMessage(), e));
+            throw new RuntimeException("Failed to convert JSON to generic type", e);
+        }
+    }
+
     public Response executeWithTokenRefresh(Supplier<Response> apiCall, Runnable tokenRefresher){
         Response response = apiCall.get();
         if(response.getStatusCode() == 401){
