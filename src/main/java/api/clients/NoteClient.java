@@ -14,4 +14,19 @@ public class NoteClient {
                 .when()
                 .post(ApiEndpoints.CREATE_NEW_NOTE.getPath());
     }
+
+    public Response getAllNotes(String token){
+        return given()
+                .header("x-auth-token", token)
+                .when()
+                .get(ApiEndpoints.GET_ALL_NOTES.getPath());
+    }
+
+    public Response getSingleNote(String token, String id){
+        return given()
+                .header("x-auth-token", token)
+                .when()
+                .get(ApiEndpoints.GET_SINGLE_NOTE.getPath(id));
+    }
+
 }

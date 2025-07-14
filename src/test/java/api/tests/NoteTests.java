@@ -7,6 +7,8 @@ import api.service.NoteService;
 import base.BaseAPI;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class NoteTests extends BaseAPI {
 
     NoteService noteService = new NoteService();
@@ -31,5 +33,27 @@ public class NoteTests extends BaseAPI {
         noteService.createNote_andAssert(note, token, noteResponse);
     }
 
+    @Test
+    public void getAllNotes(){
+        NoteResponse<List<NoteData>> noteResponse = NoteResponse.<List<NoteData>>builder()
+                .setStatus(200)
+                .setMessage("Notes successfully retrieved")
+                .setSuccess(true)
+                .build();
+        List<String> noteIds = noteService.getAllNotes_and_returnNotes(token,noteResponse);
+        System.out.println(noteIds.toString());
+    }
 
+    @Test
+    public void getSingleNote(){
+        NoteResponse<NoteData> noteResponse = NoteResponse.<NoteData>builder()
+                        .setStatus(200)
+                        .setMessage("Notes successfully retrieved")
+                        .setSuccess(true)
+                        .build();
+
+        NoteData data = noteService.getSingleNote_data(token,"6874f2829d1b4b02886570be",noteResponse);
+        System.out.println(data.getId());
+        System.out.println(data.getCategory());
+    }
 }

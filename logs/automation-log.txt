@@ -13490,3 +13490,67 @@
 2025-07-14 17:37:13 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
 2025-07-14 17:37:13 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
 2025-07-14 17:37:13 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-14 17:50:25 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:50:25 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:50:25 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:50:26 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:50:26 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:50:26 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:50:27 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 17:50:32 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-14 17:50:32 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-14 17:55:46 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:55:46 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:55:46 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:55:47 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 17:55:47 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 17:55:47 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 17:55:48 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 17:55:52 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-14 17:55:52 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-14 17:55:52 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-14 17:55:52 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-14 17:55:52 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-14 17:55:52 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-14 17:55:52 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-14 17:55:52 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-14 17:55:52 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-14 18:12:55 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 18:12:55 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 18:12:55 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 18:12:56 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 18:12:56 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 18:12:56 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 18:12:56 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 18:13:01 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-14 18:13:01 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-14 18:13:01 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-14 18:13:01 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-14 18:13:01 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-14 18:13:01 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-14 18:13:01 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-14 18:13:01 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-14 18:13:01 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-14 18:20:55 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 18:20:55 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 18:20:55 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 18:20:57 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 18:20:57 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 18:20:57 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 18:20:58 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 18:21:46 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 18:21:46 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 18:21:46 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 18:21:48 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 18:21:48 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 18:21:48 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 18:21:48 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 18:22:32 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 18:22:32 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 18:22:32 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 18:22:33 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-14 18:22:33 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-14 18:22:33 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-14 18:22:33 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-14 18:22:37 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-14 18:22:37 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
