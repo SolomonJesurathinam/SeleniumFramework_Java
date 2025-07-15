@@ -13554,3 +13554,444 @@
 2025-07-14 18:22:33 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
 2025-07-14 18:22:37 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
 2025-07-14 18:22:37 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 12:27:30 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 12:27:30 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 12:27:30 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 12:27:32 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 12:27:32 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 12:27:32 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 12:27:33 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 12:29:35 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 12:29:35 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 12:29:35 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 12:29:36 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 12:29:36 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 12:29:36 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 12:29:36 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 13:56:16 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 13:56:16 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 13:56:16 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 13:56:17 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 13:56:17 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 13:56:17 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 13:56:18 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 13:58:55 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 13:58:55 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 13:58:55 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 13:58:56 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 13:58:56 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 13:58:56 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 13:58:56 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 13:59:00 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 13:59:00 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 13:59:00 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 13:59:00 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 13:59:00 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 13:59:00 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 13:59:00 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 13:59:00 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 13:59:00 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 14:11:16 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:11:16 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:11:16 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:11:17 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:11:17 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:11:17 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:11:18 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 14:11:21 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:11:21 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:11:21 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:11:21 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:11:21 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:11:21 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:11:21 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:11:21 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:11:21 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 14:11:22 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:11:22 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:11:22 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:11:22 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:11:22 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:11:22 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:11:22 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:11:22 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:11:22 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 14:21:17 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:21:17 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:21:17 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:21:18 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:21:18 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:21:18 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:21:19 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 14:21:23 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:21:23 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 14:21:23 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:21:23 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Checking condition: data
+2025-07-15 14:21:23 [main] [] INFO  AssertionUtils:20 - Condition passed: data
+2025-07-15 14:21:23 [main] [] ERROR AssertionUtils:32 - Some assertions failed. java.lang.AssertionError: The following asserts failed:
+	success expected [true] but found [false],
+	status expected [200] but found [400],
+	message expected [Successful Request] but found [Title must be between 4 and 100 characters],
+	data expected [NoteData(id=null, title=Updated one, description=null, category=Home, completed=false, created_at=null, updated_at=null, user_id=null)] but found [null]
+2025-07-15 14:26:19 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:26:19 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:26:19 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:26:20 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:26:20 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:26:20 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:26:21 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 14:26:24 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:26:25 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 14:26:25 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:26:25 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Checking condition: data
+2025-07-15 14:26:25 [main] [] INFO  AssertionUtils:20 - Condition passed: data
+2025-07-15 14:26:25 [main] [] ERROR AssertionUtils:32 - Some assertions failed. java.lang.AssertionError: The following asserts failed:
+	success expected [true] but found [false],
+	status expected [200] but found [400],
+	message expected [Successful Request] but found [Title must be between 4 and 100 characters],
+	data expected [NoteData(id=null, title=Updated one - 1, description=New description, category=Work, completed=false, created_at=null, updated_at=null, user_id=null)] but found [null]
+2025-07-15 14:28:12 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:28:12 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:28:12 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:28:13 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:28:13 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:28:13 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:28:13 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 14:28:17 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:28:17 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 14:28:17 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:28:17 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Checking condition: data
+2025-07-15 14:28:17 [main] [] INFO  AssertionUtils:20 - Condition passed: data
+2025-07-15 14:28:17 [main] [] ERROR AssertionUtils:32 - Some assertions failed. java.lang.AssertionError: The following asserts failed:
+	success expected [true] but found [false],
+	status expected [200] but found [400],
+	message expected [Successful Request] but found [Title must be between 4 and 100 characters],
+	data expected [NoteData(id=6874f2f09d1b4b02886570c4, title=Updated one - 1, description=New description, category=Work, completed=false, created_at=null, updated_at=null, user_id=null)] but found [null]
+2025-07-15 14:31:25 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:31:25 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:31:25 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:31:26 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:31:26 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:31:26 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:31:26 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 14:31:30 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:31:30 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:31:30 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:31:30 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:31:30 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:31:30 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:31:30 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:31:30 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:31:30 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 14:31:31 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:31:31 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:31:31 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:31:31 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:31:31 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:31:31 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:31:31 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:31:31 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:31:31 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
+2025-07-15 14:31:31 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
+2025-07-15 14:31:31 [main] [] INFO  AssertionUtils:20 - Checking condition: data.description
+2025-07-15 14:31:31 [main] [] INFO  AssertionUtils:20 - Condition passed: data.description
+2025-07-15 14:31:31 [main] [] INFO  AssertionUtils:20 - Checking condition: data.category
+2025-07-15 14:31:31 [main] [] INFO  AssertionUtils:20 - Condition passed: data.category
+2025-07-15 14:31:31 [main] [] ERROR AssertionUtils:32 - Some assertions failed. java.lang.AssertionError: The following asserts failed:
+	message expected [Successful Request] but found [Note successfully Updated]
+2025-07-15 14:32:40 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:32:40 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:32:40 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:32:41 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:32:41 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:32:41 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:32:42 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 14:32:46 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:32:46 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:32:46 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:32:46 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:32:46 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:32:46 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:32:46 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:32:46 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:32:46 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 14:32:47 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:32:47 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - Checking condition: data.description
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - Condition passed: data.description
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - Checking condition: data.category
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - Condition passed: data.category
+2025-07-15 14:32:47 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 14:47:20 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:47:20 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:47:20 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:47:21 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:47:21 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:47:21 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:47:21 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 14:47:25 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:47:25 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:47:25 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:47:25 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:47:25 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:47:25 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:47:25 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:47:25 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:47:25 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 14:47:26 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:47:26 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:47:26 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:47:26 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:47:26 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:47:26 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:47:26 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:47:26 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:47:26 [main] [] INFO  AssertionUtils:20 - Checking condition: data.completed
+2025-07-15 14:47:26 [main] [] INFO  AssertionUtils:20 - Condition passed: data.completed
+2025-07-15 14:47:26 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 14:53:42 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:53:42 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:53:42 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:53:43 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 14:53:43 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 14:53:43 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 14:53:44 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 14:53:48 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 14:53:48 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - Checking condition: data.description
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - Condition passed: data.description
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - Checking condition: data.category
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - Condition passed: data.category
+2025-07-15 14:53:48 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 15:00:37 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 15:00:37 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 15:00:37 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 15:00:39 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 15:00:39 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 15:00:39 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 15:00:39 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 15:00:43 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 15:00:43 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - Checking condition: data.description
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - Condition passed: data.description
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - Checking condition: data.category
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - Condition passed: data.category
+2025-07-15 15:00:43 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 15:00:44 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 15:00:44 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 15:00:44 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 15:00:44 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 15:00:44 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 15:00:44 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 15:00:44 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 15:00:44 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 15:00:44 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
+2025-07-15 15:00:44 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
+2025-07-15 15:00:44 [main] [] INFO  AssertionUtils:20 - Checking condition: data.description
+2025-07-15 15:00:44 [main] [] INFO  AssertionUtils:20 - Condition passed: data.description
+2025-07-15 15:00:44 [main] [] INFO  AssertionUtils:20 - Checking condition: data.category
+2025-07-15 15:00:44 [main] [] INFO  AssertionUtils:20 - Condition passed: data.category
+2025-07-15 15:00:44 [main] [] ERROR AssertionUtils:32 - Some assertions failed. java.lang.AssertionError: The following asserts failed:
+	message expected [Notes successfully retrieved] but found [Note successfully retrieved]
+2025-07-15 15:01:45 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 15:01:45 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 15:01:45 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 15:01:46 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 15:01:46 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 15:01:46 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 15:01:46 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 15:01:50 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 15:01:50 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - Checking condition: data.description
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - Condition passed: data.description
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - Checking condition: data.category
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - Condition passed: data.category
+2025-07-15 15:01:50 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 15:01:51 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 15:01:51 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Checking condition: data.description
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Condition passed: data.description
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Checking condition: data.category
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Condition passed: data.category
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 15:01:51 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 15:01:51 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Checking condition: data.description
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Condition passed: data.description
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Checking condition: data.category
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - Condition passed: data.category
+2025-07-15 15:01:51 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 15:01:52 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 15:01:52 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 15:01:52 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 15:01:52 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 15:01:52 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 15:01:52 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 15:01:52 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 15:01:52 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 15:01:52 [main] [] INFO  AssertionUtils:20 - Checking condition: data.completed
+2025-07-15 15:01:52 [main] [] INFO  AssertionUtils:20 - Condition passed: data.completed
+2025-07-15 15:01:52 [main] [] ERROR AssertionUtils:32 - Some assertions failed. java.lang.AssertionError: The following asserts failed:
+	data.completed expected [true] but found [false]
+2025-07-15 15:02:52 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 15:02:52 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 15:02:52 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 15:02:54 [main] [] INFO  PropertiesReader:20 - Loading Properties File
+2025-07-15 15:02:54 [main] [] INFO  PropertiesReader:20 - Loaded Properties File successfully
+2025-07-15 15:02:54 [main] [] INFO  PropertiesReader:20 - Returning https://practice.expandtesting.com/notes/api for baseUrl property
+2025-07-15 15:02:55 [main] [] INFO  AuthenticationClient:20 - Returning {"email":"apiTest1@gmail.com","password":"apiTestPassword@2580123"} from map to json
+2025-07-15 15:03:01 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 15:03:01 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - Checking condition: data.description
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - Condition passed: data.description
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - Checking condition: data.category
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - Condition passed: data.category
+2025-07-15 15:03:01 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 15:03:02 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 15:03:02 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Checking condition: data.description
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Condition passed: data.description
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Checking condition: data.category
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Condition passed: data.category
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 15:03:02 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 15:03:02 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Checking condition: data.title
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Condition passed: data.title
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Checking condition: data.description
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Condition passed: data.description
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Checking condition: data.category
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - Condition passed: data.category
+2025-07-15 15:03:02 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 15:03:03 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 15:03:03 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Checking condition: data.completed
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Condition passed: data.completed
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.
+2025-07-15 15:03:03 [main] [] INFO  NoteService:20 - Converting response JSON to generic type
+2025-07-15 15:03:03 [main] [] INFO  NoteService:20 - Successfully converted JSON to generic type
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Checking condition: success
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Condition passed: success
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Checking condition: status
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Condition passed: status
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Checking condition: message
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - Condition passed: message
+2025-07-15 15:03:03 [main] [] INFO  AssertionUtils:20 - All assertions passed successfully.

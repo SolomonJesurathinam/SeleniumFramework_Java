@@ -8,6 +8,7 @@ import api.dto.NoteResponse;
 import api.utils.ApiUtils;
 import com.fasterxml.jackson.core.type.TypeReference;
 import io.restassured.response.Response;
+import org.testng.Assert;
 import utils.AssertionUtils;
 
 import java.util.ArrayList;
@@ -17,17 +18,18 @@ public class NoteService {
     private final NoteClient client = new NoteClient();
     ApiUtils apiUtils = new ApiUtils(NoteService.class);
 
-    public Response createNote(Note note, String token){
+    public Response createNote(NoteData note, String token){
         return apiUtils.executeWithTokenRefresh(
                 ()-> client.createNote(note, token),
                 AuthenticationClient::getToken );
     }
 
-    public void createNote_andAssert(Note note, String token, NoteResponse<NoteData> expNoteRes){
+    public String createNote_andAssert(NoteData note, String token, NoteResponse<NoteData> expNoteRes){
         NoteResponse<NoteData> noteResponse = apiUtils.responseToClass(createNote(note,token), new TypeReference<>() {
         });
         System.out.println(noteResponse.toString());
         AssertionUtils.assertMatchingNonNullFieldsSoft(noteResponse,expNoteRes);
+        return noteResponse.getData().getId();
     }
 
     public Response getAllNotes(String token){
@@ -63,6 +65,49 @@ public class NoteService {
         NoteResponse<NoteData> result =  apiUtils.responseToClass(getSingleNote(token, id), new TypeReference<NoteResponse<NoteData>>() {});
         AssertionUtils.assertMatchingNonNullFieldsSoft(result,expNotes);
         return result.getData();
+    }
+
+    public Response deleteSingleNote(String token, String id){
+        return apiUtils.executeWithTokenRefresh(
+                () -> client.deleteSingleNote(token,id),
+                AuthenticationClient::getToken );
+    }
+
+    public void deleteSingleNote_assert(String token, String id, NoteResponse<Void> expNotes){
+        NoteResponse<Void> result =  apiUtils.responseToClass(deleteSingleNote(token, id), new TypeReference<NoteResponse<Void>>() {});
+        AssertionUtils.assertMatchingNonNullFieldsSoft(result, expNotes);
+    }
+
+    public String getFirstNote(String token, NoteResponse<List<NoteData>> expNotes){
+        List<String> ids = getAllNotes_and_returnNotes(token, expNotes);
+        if(!ids.isEmpty()){
+            return ids.getFirst();
+        }else{
+            AssertionUtils.assertFail("Notes are not available");
+        }
+        return null;
+    }
+
+    public Response updateSingleNote(String token, String id, NoteData noteData){
+        return apiUtils.executeWithTokenRefresh(
+                () -> client.updateSingleNote(token, id, noteData),
+                AuthenticationClient::getToken );
+    }
+
+    public void updateSingleNote_assert(String token, String id, NoteResponse<NoteData> expNotes, NoteData noteData){
+        NoteResponse<NoteData> result =  apiUtils.responseToClass(updateSingleNote(token, id, noteData), new TypeReference<NoteResponse<NoteData>>() {});
+        AssertionUtils.assertMatchingNonNullFieldsSoft(result, expNotes);
+    }
+
+    public Response patchSingleNote(String token, String id, NoteData noteData){
+        return apiUtils.executeWithTokenRefresh(
+                () -> client.patchSingleNote(token, id, noteData),
+                AuthenticationClient::getToken );
+    }
+
+    public void patchSingleNote_assert(String token, String id, NoteData noteData, NoteResponse<NoteData> noteRes){
+        NoteResponse<NoteData> result =  apiUtils.responseToClass(patchSingleNote(token, id, noteData), new TypeReference<NoteResponse<NoteData>>() {});
+        AssertionUtils.assertMatchingNonNullFieldsSoft(result, noteRes);
     }
 
     /*
